@@ -168,6 +168,9 @@ nav a:hover, footer a:hover { opacity: .5; }
 .closing a { align-self: flex-end; padding-bottom: 8px; border-bottom: 1px solid var(--ink); font-size: .9rem; }
 .closing a span { margin-left: 24px; }
 footer { max-width: var(--max); margin: auto; padding: 24px 32px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-size: .72rem; }
+.footer-copy { display: grid; gap: 7px; max-width: 760px; }
+.footer-disclaimer { color: var(--muted); font-size: .62rem; line-height: 1.5; }
+footer > a { flex: 0 0 auto; align-self: flex-start; margin-left: 24px; }
 
 @media (max-width: 900px) {
   .site-header { grid-template-columns: 1fr auto; }
