@@ -1,2 +1,5 @@
-# daisukewatanabejapan.github.io
-Personal profile — AI, engineering leadership, and organization design.
+# Daisuke Watanabe — Profile
+
+Personal profile website for Daisuke Watanabe.
+
+Published with GitHub Pages.
