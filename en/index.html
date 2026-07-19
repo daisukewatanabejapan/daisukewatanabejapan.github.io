@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daisuke Watanabe | Engineering &amp; AI Leadership</title>
     <script>
+      fetch('/index.html?v=20260720b', { cache: 'no-store' })
+        .then((response) => response.text())
+        .then((html) => {
+          const english = html.replace('<html lang="ja">', '<html lang="en" data-language="en">');
+          document.open();
+          document.write(english);
+          document.close();
+        });
+    </script>
+  </head>
+  <body></body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daisuke Watanabe | Engineering &amp; AI Leadership</title>
+    <script>
       fetch('/index.html')
         .then((response) => response.text())
         .then((html) => {
