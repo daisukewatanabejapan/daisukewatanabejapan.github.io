@@ -110,7 +110,7 @@ if (isEnglish) {
     '企業DX・アジャイル組織化支援': 'Enterprise DX & Agile Transformation Support',
     '日本生命保険相互会社': 'Nippon Life Insurance Company',
     'アジャイルCoE組織支援': 'Agile CoE organizational support',
-    '第一生命保険株式会社': 'The Dai-ichi Life Insurance Company, Limited',
+    '第一ライフテクノクロス株式会社': 'Daiichi Life Techno Cross Co., Ltd.',
     'アジャイル組織・高度人材評価支援': 'Agile organization and advanced talent assessment support',
     'パナソニックグループ労働組合連合会': 'Panasonic Group Workers Unions Association',
     'DX講師': 'DX Instructor',
