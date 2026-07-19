@@ -1136,6 +1136,10 @@ footer { font-size: .82rem; }
 .talk-photo img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .talk-photo.logo-display { display: grid; place-items: center; padding: 28px; background: #fff; border: 1px solid var(--line); }
 .talk-photo.logo-display img { height: auto; object-fit: contain; }
+.talk-photo.techno-logo-only img {
+  clip-path: inset(0 0 25% 0);
+  transform: translateY(12%);
+}
 .talk-photo.portrait-crop img { object-position: 50% 55%; }
 .talk-photo.poster-crop img { object-position: 50% 19%; }
 .talk-placeholder { display: grid; place-items: center; color: var(--muted); font-size: .72rem; letter-spacing: .12em; }
