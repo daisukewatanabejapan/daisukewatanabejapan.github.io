@@ -1,3 +1,4 @@
+(() => {
 const menuButton = document.querySelector('.menu-button');
 const mobileNav = document.querySelector('#mobile-nav');
 
@@ -194,3 +195,4 @@ if (isEnglish) {
     link.setAttribute('aria-label', '日本語に切り替える');
   });
 }
+})();
