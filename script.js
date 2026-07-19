@@ -68,6 +68,8 @@ if (isEnglish) {
     'ソフトバンク株式会社': 'SoftBank Corp.',
     'SB OAI Japan合同会社 エンジニアリング本部長': 'VP, Head of Engineering, SB OAI Japan',
     'ソフトバンク株式会社 法人事業統括 SB OAI本部 エンジニアリング統括部長': 'Head of Engineering Division, SB OAI Division, Enterprise Business Unit, SoftBank Corp.',
+    'ソフトバンク株式会社 法人事業統括 SB OAI本部 エンジニアリング統括部長・グループASI戦略本部': 'SoftBank Corp. — Head of Engineering Division, SB OAI Division, Enterprise Business Unit; Group ASI Strategy Division',
+    'LINEヤフー株式会社 メディア・検索ドメイン サイエンスSBU': 'LY Corporation — Media & Search Domain, Science SBU',
     '半導体工学を基盤とし、計算基盤からソフトウェア、エンタープライズ領域までを横断しながら、大規模環境におけるAIの社会実装と事業価値の創出を推進しています。': 'With a foundation in semiconductor engineering, I work across computing infrastructure, software, and enterprise systems to advance AI implementation and business value creation at scale.',
     'AIを単なる技術としてではなく、企業の実際の業務に組み込み、事業価値として継続的に機能させることに取り組んでいます。': 'My focus is not AI as a standalone technology, but its integration into real business operations so that it delivers sustained value.',
     'ソフトバンク株式会社 / LINEヤフー株式会社': 'SoftBank Corp. / LY Corporation',
