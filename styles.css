@@ -1136,8 +1136,8 @@ footer { font-size: .82rem; }
 .talk-photo img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .talk-photo.logo-display { display: grid; place-items: center; padding: 28px; background: #fff; border: 1px solid var(--line); }
 .talk-photo.logo-display img { height: auto; object-fit: contain; }
-.talk-photo.techno-official-logo { padding: clamp(36px, 5vw, 72px); background: #fff; }
-.talk-photo.techno-official-logo img { width: 100%; height: auto; object-fit: contain; }
+.talk-photo.techno-event-visual { padding: 0; background: #fff; }
+.talk-photo.techno-event-visual img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
 .talk-photo.portrait-crop img { object-position: 50% 55%; }
 .talk-photo.poster-crop img { object-position: 50% 19%; }
 .talk-placeholder { display: grid; place-items: center; color: var(--muted); font-size: .72rem; letter-spacing: .12em; }
