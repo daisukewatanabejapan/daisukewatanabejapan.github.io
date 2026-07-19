@@ -164,6 +164,7 @@ if (isEnglish) {
     'ワークフロー自動化': 'Workflow Automation',
     'ソフトウェア開発': 'Software Development',
     'AI・エンジニアリング': 'AI & Engineering',
+    'Lean・DevOps': 'Lean & DevOps',
     '生成AI・LLM': 'Generative AI & LLMs',
     'RAG': 'Retrieval-Augmented Generation',
     'AIエージェント': 'AI Agents',
