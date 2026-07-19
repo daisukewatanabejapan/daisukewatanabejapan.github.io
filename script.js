@@ -15,7 +15,15 @@ mobileNav?.querySelectorAll('a').forEach((link) => {
   });
 });
 
-const isEnglish = document.documentElement.dataset.language === 'en' || location.pathname.startsWith('/en');
+const isEnglish = document.documentElement.dataset.language === 'en' || location.pathname.startsWith('/en') || location.pathname.endsWith('/english.html');
+
+const wordmark = document.querySelector('.wordmark');
+wordmark?.addEventListener('click', (event) => {
+  event.preventDefault();
+  const homePath = isEnglish ? '/english.html' : '/';
+  history.replaceState(null, '', homePath);
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+});
 
 if (isEnglish) {
   document.documentElement.lang = 'en';
@@ -229,6 +237,10 @@ if (isEnglish) {
     link.textContent = 'JA';
     link.href = '/';
     link.setAttribute('aria-label', '日本語に切り替える');
+  });
+
+  document.querySelectorAll('.site-header a[href^="#"]').forEach((link) => {
+    link.href = `/english.html${link.getAttribute('href')}`;
   });
 }
 })();
