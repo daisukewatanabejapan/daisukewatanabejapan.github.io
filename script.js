@@ -57,7 +57,6 @@ if (isEnglish) {
     'メディア・検索ドメイン サイエンスSBU': 'Media & Search Domain, Science SBU',
     'AI、ソフトウェアエンジニアリング、健全な組織づくりを通じて、事業と社会の持続的な発展に貢献することを目指しています。': 'I work to support the sustainable development of business and society through AI, software engineering, and healthy organizational design.',
     'お仕事・講演のご依頼はこちら': 'Work & speaking inquiries',
-    'AIエージェント開発ガイド ↗': 'AI Agent Development ↗',
     'SB OAI Japan合同会社': 'SB OAI Japan GK',
     '特任フェロー／産学官連携統括': 'Specially Appointed Fellow / Head of Industry–Academia–Government Collaboration',
     'YouTubeで見る ↗': 'Watch on YouTube ↗',
