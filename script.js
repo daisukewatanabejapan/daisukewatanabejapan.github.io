@@ -134,7 +134,7 @@ if (isEnglish) {
     'ヤフー株式会社': 'Yahoo Japan Corporation',
     'テクノロジーグループ': 'Technology Group',
     '技術研究室長': 'Head of Technology Research',
-    'メディア・広告・検索・研究開発の各領域において、主要メディアの開発・BCP、技術戦略、1,000名超のエンジニアリング組織戦略と人材育成に携わりました。': 'Led major media development, business continuity, technology strategy, and talent development for an engineering organization of more than 1,000 people across media, advertising, search, and R&D.',
+    'メディア・広告・検索・研究開発の各領域において、主要メディアの大規模プロダクト開発・BCP、技術戦略、1,000名超のエンジニアリング組織戦略と人材育成に携わりました。': 'Contributed to large-scale product development and business continuity for major media services, technology strategy, and organizational strategy and talent development for an engineering organization of more than 1,000 people across media, advertising, search, and R&D.',
     'CTO／VPoEキャリアトーク': 'CTO / VPoE Career Talk',
     'ヤフーDXセミナー': 'Yahoo Japan DX Seminar',
     '執行役員': 'Executive Officer',
