@@ -37,7 +37,7 @@ if (isEnglish) {
   const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) ogTitle.content = 'Daisuke Watanabe | Engineering & AI Leadership';
   const ogDescription = document.querySelector('meta[property="og:description"]');
-  if (ogDescription) ogDescription.content = 'Official profile of Daisuke Watanabe, VP and Head of Engineering at SB OAI Japan, focused on enterprise AI implementation at scale.';
+  if (ogDescription) ogDescription.content = 'Official profile of Daisuke Watanabe, VP and Head of Engineering at SB OAI Japan GK, focused on enterprise AI implementation at scale.';
   const ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.content = 'https://daisukewatanabejapan.github.io/english.html';
 
@@ -57,7 +57,7 @@ if (isEnglish) {
     'メディア・検索ドメイン サイエンスSBU': 'Media & Search Domain, Science SBU',
     'AI、ソフトウェアエンジニアリング、健全な組織づくりを通じて、事業と社会の持続的な発展に貢献することを目指しています。': 'I work to support the sustainable development of business and society through AI, software engineering, and healthy organizational design.',
     'お仕事・講演のご依頼はこちら': 'Work & speaking inquiries',
-    'SB OAI Japan合同会社': 'SB OAI Japan',
+    'SB OAI Japan合同会社': 'SB OAI Japan GK',
     '特任フェロー／産学官連携統括': 'Specially Appointed Fellow / Head of Industry–Academia–Government Collaboration',
     'YouTubeで見る ↗': 'Watch on YouTube ↗',
     '「ソフトウェア開発の本質は、': '“The essence of software development',
@@ -75,13 +75,13 @@ if (isEnglish) {
     'Yahoo! JAPANでの取り組み': 'Engineering Leadership at Yahoo! JAPAN',
     '現在の主な役割': 'Current Roles',
     'ソフトバンク株式会社': 'SoftBank Corp.',
-    'SB OAI Japan合同会社 エンジニアリング本部長': 'VP, Head of Engineering, SB OAI Japan',
+    'SB OAI Japan合同会社 エンジニアリング本部長': 'VP, Head of Engineering, SB OAI Japan GK',
     'ソフトバンク株式会社 法人事業統括 SB OAI本部 エンジニアリング統括部長': 'Head of Engineering Division, SB OAI Division, Enterprise Business Unit, SoftBank Corp.',
     'ソフトバンク株式会社 法人事業統括 SB OAI本部 エンジニアリング統括部長・グループASI戦略本部': 'SoftBank Corp. — Head of Engineering Division, SB OAI Division, Enterprise Business Unit; Group ASI Strategy Division',
     'LINEヤフー株式会社 メディア・検索ドメイン サイエンスSBU': 'LY Corporation — Media & Search Domain, Science SBU',
     '神戸高専電子工学科で半導体工学・ソフトウェア工学を学び、UNIX-Cプログラマーとしてキャリアを始めました。その後、日本テレビ放送網の番組Webサイトを8年間担当し、箱根駅伝・国政選挙速報システムの設計・開発・運用、読売新聞社のニュースメディア立ち上げに携わりました。上場企業の新規事業CTO、Gunosy執行役員・開発本部長として、事業と開発組織づくりにも取り組みました。': 'After studying semiconductor and software engineering in the Department of Electronic Engineering at Kobe KOSEN, I began my career as a UNIX/C programmer. I later spent eight years working on Nippon Television program websites, including the design, development, and operation of the Hakone Ekiden and national election reporting systems, and contributed to the launch of Yomiuri Shimbun news services. I also worked on business and engineering organization development as CTO of a new business at a listed company and as Executive Officer and Head of Development at Gunosy.',
     '2018年にYahoo! JAPANへ入社。主要メディアの大規模プロダクト開発、広告・マーケティング領域における1,000名超のエンジニアリング組織戦略と人材育成、技術研究室長を担当しました。その後、全社生成AI戦略と社内情報検索AIを推進し、10か月でMAU400％成長、10,000名超が利用する基盤へ拡大しました。': 'I joined Yahoo! JAPAN in 2018. My work included large-scale product development for major media services, engineering strategy and talent development for an organization of more than 1,000 people in advertising and marketing, and leadership of Technology Research. I later advanced company-wide generative AI strategy and an internal AI search platform, which achieved 400% MAU growth in 10 months and scaled to more than 10,000 users.',
-    '2025年にソフトバンク株式会社へ参画しました。2026年より、ソフトバンクグループとOpenAIによる合弁会社SB OAI Japan合同会社のエンジニアリング本部長を務めています。また、大学・高専での教育、半導体人材育成、企業・行政・スタートアップへの技術・組織支援にも取り組んでいます。': 'I joined SoftBank Corp. in 2025. Since 2026, I have served as VP and Head of Engineering at SB OAI Japan, the joint venture between SoftBank Group and OpenAI. I also contribute to university and KOSEN education, semiconductor talent development, and technology and organizational initiatives with companies, government, and startups.',
+    '2025年にソフトバンク株式会社へ参画しました。2026年より、ソフトバンクグループとOpenAIによる合弁会社SB OAI Japan合同会社のエンジニアリング本部長を務めています。また、大学・高専での教育、半導体人材育成、企業・行政・スタートアップへの技術・組織支援にも取り組んでいます。': 'I joined SoftBank Corp. in 2025. Since 2026, I have served as VP and Head of Engineering at SB OAI Japan GK, the joint venture between SoftBank Group and OpenAI. I also contribute to university and KOSEN education, semiconductor talent development, and technology and organizational initiatives with companies, government, and startups.',
     '半導体工学を基盤とし、計算基盤からソフトウェア、エンタープライズ領域までを横断しながら、大規模環境におけるAIの社会実装と事業価値の創出を推進しています。': 'With a foundation in semiconductor engineering, I work across computing infrastructure, software, and enterprise systems to advance AI implementation and business value creation at scale.',
     'AIを単なる技術としてではなく、企業の実際の業務に組み込み、事業価値として継続的に機能させることに取り組んでいます。': 'My focus is not AI as a standalone technology, but its integration into real business operations so that it delivers sustained value.',
     'ソフトバンク株式会社 / LINEヤフー株式会社': 'SoftBank Corp. / LY Corporation',
@@ -130,7 +130,7 @@ if (isEnglish) {
     '2025–現在': '2025–Present',
     'Crystal Intelligenceの導入・展開と、実装。FDE・TPM・SWE・AIエンジニア組織のマネジメント、育成、採用を担当しています。': 'Leading the implementation and deployment of Crystal Intelligence, including management, development, and hiring across FDE, TPM, SWE, and AI engineering teams.',
     'AIの社会実装': 'AI Implementation',
-    'SB OAI Japan設立': 'Establishment of SB OAI Japan',
+    'SB OAI Japan設立': 'Establishment of SB OAI Japan GK',
     'サービス解説': 'Service Overview',
     'グループASI戦略本部を兼務し、グループ横断のAIプロジェクトとエンジニアリング組織を推進しています。': 'Serving concurrently in the Group ASI Strategy Division, driving cross-group AI initiatives and engineering organizations.',
     '人事について（VP就任）': 'Executive Appointment',
