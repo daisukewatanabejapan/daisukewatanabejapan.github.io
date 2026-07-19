@@ -213,6 +213,8 @@ if (isEnglish) {
     'CTO/VPoEキャリアトーク #1': 'CTO/VPoE Career Talk #1',
     'スケールアップする組織におけるLeSS実践と継続的改善手法': 'LeSS Practice and Continuous Improvement in a Scaling Organization',
     '組織スケールとアジャイル': 'Scaling Organizations & Agile',
+    'スクラムギャザリング東京実行委員会': 'Scrum Gathering Tokyo Organizing Committee',
+    '公式イベント ↗': 'Official event ↗',
     '拡大するスマートフォン市場とコンテンツビジネスの可能性': 'The Growing Smartphone Market and the Future of Content Business',
     'モバイル・コンテンツビジネス': 'Mobile & Content Business',
     '東京IPO': 'Tokyo IPO',
