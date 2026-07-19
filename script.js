@@ -34,6 +34,7 @@ if (isEnglish) {
   if (ogUrl) ogUrl.content = 'https://daisukewatanabejapan.github.io/english.html';
 
   const translations = {
+    '本サイトは個人として運営しており、掲載内容は所属組織の公式見解を示すものではありません。': 'This website represents my personal activities and does not necessarily reflect the views of my employers.',
     '本文へ移動': 'Skip to content',
     '技術と人をつなぎ、': 'Connecting people and technology,',
     'より良い未来をともにつくる。': 'building a better future together.',
