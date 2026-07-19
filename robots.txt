@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daisukewatanabejapan.github.io/sitemap.xml

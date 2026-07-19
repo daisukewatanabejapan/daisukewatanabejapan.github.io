@@ -22,6 +22,16 @@ if (isEnglish) {
   document.title = 'Daisuke Watanabe | Engineering & AI Leadership';
   const description = document.querySelector('meta[name="description"]');
   if (description) description.content = 'Daisuke Watanabe — engineering leader focused on enterprise AI implementation, software engineering, and organizational development.';
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.href = 'https://daisukewatanabejapan.github.io/english.html';
+  const ogLocale = document.querySelector('meta[property="og:locale"]');
+  if (ogLocale) ogLocale.content = 'en_US';
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.content = 'Daisuke Watanabe | Engineering & AI Leadership';
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  if (ogDescription) ogDescription.content = 'Official profile of Daisuke Watanabe, VP and Head of Engineering at SB OAI Japan, focused on enterprise AI implementation at scale.';
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.content = 'https://daisukewatanabejapan.github.io/english.html';
 
   const translations = {
     '本文へ移動': 'Skip to content',
@@ -70,11 +80,12 @@ if (isEnglish) {
     '行政DX推進アドバイザー': 'Government DX Advisor',
     'その他の教育・社会活動・企業DX・アジャイル組織化支援を見る': 'View education, community, enterprise DX & agile transformation work',
     '教育・社会活動': 'Education & Community',
-    '東京都立産業技術高専': 'Tokyo Metropolitan College of Industrial Technology',
+    '継続中': 'Ongoing',
+    '東京都立産業技術高等専門学校': 'Tokyo Metropolitan College of Industrial Technology',
     '「生成AI概論」講師': 'Lecturer, Introduction to Generative AI',
-    '全国高専プログラミングコンテスト': 'National KOSEN Programming Contest',
+    '全国高等専門学校プログラミングコンテスト': 'National KOSEN Programming Contest',
     '競技部門 審査委員（2021）': 'Competition Division Judge (2021)',
-    '新潟 開志専門職大学': 'Kaishi Professional University',
+    '開志専門職大学': 'Kaishi Professional University',
     '特別講師（2020–2021）': 'Guest Lecturer (2020–2021)',
     '東京都自閉症協会': 'Tokyo Autism Association',
     'プログラミング講師・マインドフルネス講師・AI講師': 'Programming, mindfulness, and AI instructor',
