@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daisuke Watanabe | Engineering &amp; AI Leadership</title>
     <script>
-      fetch('/index.html?v=20260720ax', { cache: 'no-store' })
+      fetch('/index.html?v=20260720az', { cache: 'no-store' })
         .then((response) => response.text())
         .then((html) => {
           const parsed = new DOMParser().parseFromString(html, 'text/html');
@@ -15,7 +15,7 @@
           document.documentElement.dataset.language = 'en';
 
           const translations = document.createElement('script');
-          translations.src = '/script.js?v=20260720ax';
+          translations.src = '/script.js?v=20260720az';
           document.body.appendChild(translations);
         });
     </script>
