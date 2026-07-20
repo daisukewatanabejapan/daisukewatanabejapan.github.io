@@ -358,6 +358,7 @@ if (isEnglish) {
     '半導体人材育成事業着任記事のサムネイル': 'Semiconductor talent development appointment article thumbnail',
     '渋谷区役所とYOUTRUSTの就任記事サムネイル': 'Shibuya City and YOUTRUST appointment article thumbnail',
     '渋谷区役所とYOUTRUSTの就任式写真': 'Shibuya City and YOUTRUST appointment ceremony photo',
+    '教育・社会活動で参加者と撮影した集合写真': 'Group photo with participants during an education and community activity',
     '渋谷区の副業人材活用記事のサムネイル': 'Shibuya City external talent initiative article thumbnail',
     'Mitsukeba公式サイトのサムネイル': 'Mitsukeba official website thumbnail',
     '東京都立産業技術高専での生成AI概論のサムネイル': 'Generative AI course at Tokyo Metropolitan College of Industrial Technology thumbnail',
