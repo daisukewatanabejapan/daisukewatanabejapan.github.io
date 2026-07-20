@@ -1052,6 +1052,16 @@ footer { font-size: .82rem; }
   margin-top: 4px;
 }
 .agile-activity-list { margin: 0; }
+.about-hero-visual {
+  margin: 0 0 44px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.about-hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .agile-card-group { display: grid; gap: 8px; }
 .agile-card-group + .agile-card-group { margin-top: 24px; }
 .agile-card-group h5 {
@@ -1112,6 +1122,7 @@ footer { font-size: .82rem; }
   .about-related { grid-template-columns: 1fr; margin-top: -56px; }
   .lined-list + .about-related { margin-top: 24px; }
   .activity-domain { gap: 24px; }
+  .about-hero-visual { margin-bottom: 34px; }
 }
 
 @media (max-width: 600px) {
