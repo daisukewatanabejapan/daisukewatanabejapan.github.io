@@ -1084,6 +1084,19 @@ footer { font-size: .82rem; }
 .career-archive-list { padding-top: 4px; }
 
 .social-activities-more { margin-top: 48px; }
+.support-overview {
+  display: grid;
+  grid-template-columns: minmax(100px, .28fr) minmax(0, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+  padding: 24px 0 28px;
+  border-top: 1px solid var(--line);
+}
+.support-overview p { margin: 0; }
+.support-overview > p:last-child { color: var(--muted); line-height: 1.9; }
+.support-label { color: var(--ink); font-size: .8rem; font-weight: 600; letter-spacing: .06em; }
+.no-break { white-space: nowrap; }
+.support-overview + .social-activities-more { margin-top: 0; }
 .social-activities-more summary {
   display: flex;
   justify-content: space-between;
@@ -1096,6 +1109,11 @@ footer { font-size: .82rem; }
   list-style: none;
   font-size: .94rem;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .support-overview { grid-template-columns: 1fr; gap: 12px; padding: 22px 0 24px; }
+  .support-overview > p:last-child { line-height: 1.8; }
 }
 .social-activities-more summary::-webkit-details-marker { display: none; }
 .social-activities-more summary span {
