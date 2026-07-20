@@ -175,7 +175,7 @@ footer > a { flex: 0 0 auto; align-self: flex-start; margin-left: 24px; }
 @media (max-width: 900px) {
   .site-header { grid-template-columns: 1fr auto; }
   .site-header nav { display: none; }
-  .menu-button { display: block; border: 0; background: none; font: inherit; font-size: .78rem; cursor: pointer; }
+  .menu-button { display: block; border: 0; background: none; color: var(--ink); opacity: 1; font: inherit; font-size: .78rem; cursor: pointer; }
   .mobile-nav { position: absolute; top: 76px; left: 0; right: 0; padding: 24px 32px; background: var(--paper); border-bottom: 1px solid var(--line); }
   .mobile-nav:not([hidden]) { display: grid; gap: 18px; }
   .hero { min-height: 800px; }
