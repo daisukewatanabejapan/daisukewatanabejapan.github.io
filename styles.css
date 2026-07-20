@@ -969,6 +969,7 @@ footer { font-size: .82rem; }
   font-weight: 600;
   line-height: 1.8;
 }
+.about-position-credential-line { display: block; }
 .about-position-en { margin-left: 0; }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
 .about-position strong { color: var(--ink); font-weight: 600; }
