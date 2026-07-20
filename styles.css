@@ -990,7 +990,10 @@ footer { font-size: .82rem; }
 .role-split-links a { display: flex; justify-content: space-between; gap: 12px; color: var(--ink); font-size: .9rem; line-height: 1.45; }
 .role-split-links a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .roles { margin-bottom: 96px; }
-.main-activities { border-top: 1px solid var(--line); }
+.main-activities { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.activities-heading { order: 0; }
+.education-activity { order: 1; }
+.enterprise-activity { order: 2; }
 .activities-heading {
   flex-direction: column;
   align-items: flex-start;
