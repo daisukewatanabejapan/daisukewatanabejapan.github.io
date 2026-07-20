@@ -881,11 +881,13 @@ footer { font-size: .82rem; }
 .hero-tags a > span { position: absolute; top: 0; right: 0; color: var(--muted); font-size: .72rem; transition: color .2s ease, transform .2s ease; }
 .hero-tags a:hover > span { color: var(--ink); transform: translate(2px, -2px); }
 .hero-tags a:hover strong { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-.career-detail { display: grid; gap: 18px; }
+.career-detail { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.career-detail > * { grid-column: 1; }
 .timeline-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 20px; }
-.timeline-links a { min-width: 0; display: grid; grid-template-columns: 92px 1fr; gap: 12px; align-items: center; padding: 8px; border: 1px solid #383836; color: #f5f5ef; }
+.timeline-links a { position: relative; min-width: 0; display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; align-items: center; padding: 8px 34px 8px 8px; border: 1px solid #383836; color: #f5f5ef; }
+.timeline-links a::after { content: "↗"; position: absolute; right: 12px; color: #85857e; font-size: .72rem; }
 .timeline-links img { width: 92px; aspect-ratio: 16 / 9; display: block; object-fit: cover; background: #262624; }
-.timeline-links span { min-width: 0; color: #8e8e87; font-size: .62rem; line-height: 1.4; }
+.timeline-links span { min-width: 0; color: #f5f5ef; font-size: .72rem; line-height: 1.35; font-weight: 500; overflow-wrap: anywhere; }
 .timeline-links strong { display: block; margin-top: 3px; color: #f5f5ef; font-size: .72rem; line-height: 1.4; font-weight: 500; }
 .timeline-links a:hover { border-color: #85857e; }
 .activities-heading { display: flex; justify-content: space-between; gap: 32px; align-items: flex-end; margin-bottom: 30px; }
@@ -1011,8 +1013,10 @@ footer { font-size: .82rem; }
   .timeline article { grid-template-columns: 92px minmax(0, 1fr); gap: 18px 24px; }
   .timeline .career-detail { grid-column: 2; min-width: 0; }
   .timeline-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .timeline-links a { grid-template-columns: 76px minmax(0, 1fr); }
-  .timeline-links img { width: 76px; }
+  .timeline-links { gap: 10px; margin-top: 14px; }
+  .timeline-links a { grid-template-columns: 68px minmax(0, 1fr); min-height: 56px; padding: 6px 30px 6px 6px; }
+  .timeline-links img { width: 68px; }
+  .timeline-links span { font-size: .68rem; }
 }
 
 @media (max-width: 600px) {
