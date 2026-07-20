@@ -961,6 +961,8 @@ footer { font-size: .82rem; }
   line-height: 1.65;
 }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
+.about-position strong { color: var(--ink); font-weight: 600; }
+.about-position .about-position-org { color: var(--muted); font-size: .88em; font-weight: 400; }
 .about-ja {
   margin-top: 0;
 }
