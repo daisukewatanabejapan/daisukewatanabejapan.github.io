@@ -1182,6 +1182,7 @@ footer { font-size: .82rem; }
 .project-list .activity-link-copy { color: var(--ink); font-size: .82rem; line-height: 1.45; }
 .project-list .activity-link-arrow { padding-right: 14px; color: var(--ink); font-size: .85rem; }
 .activity-link-image { width: 96px; height: 64px; display: block; object-fit: cover; }
+.activity-link-tile:has(.activity-link-image),
 .activity-link-video { grid-template-columns: 96px minmax(0, 1fr) auto; }
 .activity-link-tile:hover { border-color: var(--ink); }
 
