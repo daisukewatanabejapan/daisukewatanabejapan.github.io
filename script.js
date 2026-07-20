@@ -112,7 +112,7 @@ if (isEnglish) {
     'これまでの活動の一部をご紹介します。': 'Selected examples of these activities are presented below.',
     '活動実績を見る': 'View activity highlights',
     '企業・教育機関・行政・公共団体での活動実績を見る': 'View activities with companies, educational institutions, government & public organizations',
-    '社会とともに、より良い未来へ。': 'Toward a Better Future, Together with Society.',
+    'より良い社会を実現するために。': 'Working Toward a Better Society.',
     '企業・教育機関・行政・公共団体での活動': 'Activities with Companies, Educational Institutions, Government & Public Organizations',
     '企業・教育機関・行政・公共団体において、実践的なアジャイル組織づくり、': 'Across companies, educational institutions, government, and public organizations, I support sustainable organizational and talent development through practical agile organization building, technical support in ',
     '分野の技術支援、技術顧問、講演・教育活動などを通じて、組織と人材の持続的な成長を支援しています。これまでの活動の一部をご紹介します。': ', technical advisory work, and speaking and educational activities. Selected examples of these activities are presented below.',
