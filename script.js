@@ -27,6 +27,7 @@ wordmark?.addEventListener('click', (event) => {
 
 if (isEnglish) {
   document.querySelectorAll('.ja-only').forEach((element) => element.remove());
+  document.querySelectorAll('.hero-role-ja, .about-position-ja-title').forEach((element) => element.remove());
   document.documentElement.lang = 'en';
   document.title = 'Daisuke Watanabe | Engineering & AI Leadership';
   const description = document.querySelector('meta[name="description"]');
@@ -65,8 +66,8 @@ if (isEnglish) {
     '「ソフトウェア開発の本質は、': '“The essence of software development',
     '人間関係の実践である。」': 'is the practice of human relationships.”',
     '人と人が出会い、互いを尊重し、学び合いながらものづくりに取り組む。その積み重ねが、より良い社会につながると考えています。': 'When people meet, respect one another, learn together, and build with empathy, their collective effort can lead to a better society.',
-    'AIの社会実装と、': 'Advancing real-world AI',
-    '次世代の人材育成に向き合う。': 'and developing the next generation.',
+    'AIの社会実装と、': 'Advancing AI, Engineering,',
+    '次世代の人材育成に向き合う。': 'and Organizational Leadership.',
     '基調講演 · Agile Japan 2026': 'Keynote · Agile Japan 2026',
     'ソフトバンク×OpenAIが挑む「AIの社会実装」': 'SoftBank × OpenAI: Bringing AI into the Real World',
     '人事について': 'Executive Appointment',
@@ -206,7 +207,7 @@ if (isEnglish) {
     '半導体・通信システムの開発を起点に、メディア、広告、検索、生成AIへと領域を広げてきました。現在は、AIを企業や社会で継続的に活用できる形へ実装するための技術と組織づくりに取り組んでいます。': 'Starting with semiconductor and telecommunications systems, I expanded my work into media, advertising, search, and generative AI. Today, I focus on the technology and organizations required to make AI sustainable in business and society.',
     '2026–現在': '2026–Present',
     '2025–現在': '2025–Present',
-    'Crystal Intelligenceの導入・展開と、実装。FDE・TPM・SWE・AIエンジニア組織のマネジメント、育成、採用を担当しています。': 'Leading the implementation and deployment of Crystal Intelligence, including management, development, and hiring across FDE, TPM, SWE, and AI engineering teams.',
+    'Crystal Intelligenceの導入・展開・実装を推進するとともに、FDE、TDL、SWE、AIエンジニア組織のマネジメント、育成、採用を担当しています。': 'Driving the implementation, deployment, and integration of Crystal Intelligence while leading the management, development, and hiring of FDE, TDL, SWE, and AI engineering teams.',
     'AIの社会実装': 'AI Implementation',
     'SB OAI Japan設立': 'Establishment of SB OAI Japan GK',
     'サービス解説': 'Service Overview',
@@ -214,7 +215,7 @@ if (isEnglish) {
     '人事について（VP就任）': 'Executive Appointment',
     '生成AI統括本部': 'Generative AI Division',
     '戦略企画本部／AI開発本部': 'Strategy Planning / AI Development',
-    '全社生成AI戦略と社内情報検索AIのプロダクトマネジメントを担当。10か月でMAUが400％成長し、10,000名超・組織の90％超が利用する基盤へ拡大しました。': 'Led enterprise-wide generative AI strategy and product management for an internal AI search platform. MAU grew 400% in 10 months, scaling to more than 10,000 users and over 90% organizational adoption.',
+    '全社生成AI戦略と社内情報検索AIのプロダクトマネジメントを担当。10か月でMAUが4倍となり、10,000名超・組織の90％超が利用する基盤へ拡大しました。': 'Led enterprise-wide generative AI strategy and product management for an internal AI search platform. MAU quadrupled within 10 months, scaling to more than 10,000 users and over 90% organizational adoption.',
     'LINEヤフー AI活用': 'Enterprise AI at LY Corporation',
     'LINEヤフー株式会社': 'LY Corporation',
     'ヤフー株式会社': 'Yahoo Japan Corporation',
@@ -323,11 +324,13 @@ if (isEnglish) {
     '職務経歴タイムライン': 'Career timeline',
     '講演一覧': 'Talks and speaking engagements',
     '渡邊大輔のポートレート': 'Portrait of Daisuke Watanabe',
+    '渡邊大輔のScrum Alliance認定トレーナー（CSAT）紹介ビジュアル': 'Daisuke Watanabe — Scrum Alliance Certified Trainer (CSAT)',
     'TECH PLAY掲載記事のプレビュー': 'Preview of the TECH PLAY feature',
     'TECH PLAY記事のプレビュー': 'Preview of the TECH PLAY article',
     'Agile Japan 2026公式メインビジュアル': 'Official Agile Japan 2026 visual',
     'Yahoo! JAPAN CTO・VPoEキャリアトークのサムネイル': 'Yahoo! JAPAN CTO/VPoE Career Talk thumbnail',
     'Yahoo! JAPAN CTO VPoEキャリアトークのサムネイル': 'Yahoo! JAPAN CTO/VPoE Career Talk thumbnail',
+    'Hack U KOSEN 2022 プレゼンテーション・作品展示会・表彰式のサムネイル': 'Hack U KOSEN 2022 presentations, project exhibition, and awards ceremony thumbnail',
     '佐世保高専で生成AIのFD講演を行う渡邊大輔': 'Daisuke Watanabe presenting a generative AI faculty development seminar at Sasebo KOSEN',
     'ソフトバンク株式会社プレスリリースのプレビュー': 'Preview of the SoftBank Corp. press release',
     '日刊工業新聞のLINEヤフーAI活用記事のプレビュー': 'Preview of The Nikkan Kogyo Shimbun article on AI adoption at LY Corporation',
@@ -343,6 +346,7 @@ if (isEnglish) {
     'スマートフォン市場とコンテンツビジネス講演のプレビュー': 'Preview of the smartphone market and content business seminar',
     'TECHNO-FRONTIER 2026公式ビジュアル': 'Official TECHNO-FRONTIER 2026 visual',
     'Agile Coaches Alliance Italy講演の告知ビジュアル': 'Promotional visual for the Agile Coaches Alliance Italy session',
+    'Agile Coaches Alliance公式ロゴ': 'Official Agile Coaches Alliance logo',
     'LeSS実践と継続的改善手法のスライドプレビュー': 'Preview of the slides on LeSS practice and continuous improvement',
     '渋谷区役所とYOUTRUST就任式の記事プレビュー': 'Preview of the Shibuya City and YOUTRUST appointment ceremony article'
   };
