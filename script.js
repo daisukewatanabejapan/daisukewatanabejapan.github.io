@@ -279,6 +279,7 @@ if (isEnglish) {
     '生成AIを学ぶ：高専教育における基礎・未来・倫理・実践活用術': 'Learning Generative AI: Foundations, Future, Ethics, and Practice in KOSEN Education',
     '生成AIに関するFD講演会': 'Faculty Development Seminar on Generative AI',
     '佐世保工業高等専門学校': 'National Institute of Technology, Sasebo College',
+    '国立佐世保工業高等専門学校': 'National Institute of Technology, Sasebo College',
     '開催記事 ↗': 'Event report ↗',
     '過去の講演を見る': 'View past talks',
     'キャリアの中で感じたこと': 'Lessons from an Engineering Leadership Career',
