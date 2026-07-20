@@ -961,9 +961,20 @@ footer { font-size: .82rem; }
   font-weight: 500;
   line-height: 1.55;
 }
+.about-position .about-position-entry { margin: 0; }
+.about-position .about-position-entry + .about-position-entry { margin-top: 20px; }
+.about-position .about-position-credentials {
+  margin: 24px 0 0;
+  font-size: .78em;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.about-position-en { margin-left: .7em; }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
 .about-position strong { color: var(--ink); font-weight: 600; }
 .about-position .about-position-org { color: var(--muted); font-size: .82em; font-weight: 400; }
+.about-position strong span,
+.about-position .about-position-credentials span { color: inherit; font-size: inherit; font-weight: inherit; }
 .about-ja {
   margin-top: 0;
 }
@@ -1128,6 +1139,8 @@ footer { font-size: .82rem; }
 @media (max-width: 600px) {
   .about-en h4 { font-size: .78rem; letter-spacing: -.035em; }
   .about-intro { margin-bottom: 52px; }
+  .about-position-en { display: block; margin-left: 0; }
+  .about-position .about-position-credentials { font-size: .72em; line-height: 1.85; }
   .roles { margin-bottom: 72px; }
   .activities-heading { padding: 48px 0 40px; }
   .activities-heading h3 { font-size: clamp(1.32rem, 5.4vw, 2rem); }
