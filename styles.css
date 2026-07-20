@@ -1037,9 +1037,9 @@ footer { font-size: .82rem; }
 .education-activity .ongoing-activities { margin: 0; }
 .education-activity .project-list { margin: 0; }
 .agile-activity-links {
-  grid-column: auto;
-  margin-top: 26px;
+  margin-top: 4px;
 }
+.agile-activity-list { margin: 0; }
 .agile-activity-links .activity-link-copy { display: grid; gap: 4px; }
 .agile-activity-links .activity-link-copy small { color: var(--muted); font-size: .62rem; line-height: 1.35; }
 .agile-activity-links .activity-link-copy strong { color: var(--ink); font-size: .76rem; font-weight: 550; line-height: 1.45; }
