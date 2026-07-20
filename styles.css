@@ -1289,6 +1289,7 @@ footer { font-size: .82rem; }
 .project-list .activity-link-copy { min-width: 0; color: var(--ink); font-size: .82rem; line-height: 1.45; writing-mode: horizontal-tb; word-break: normal; overflow-wrap: anywhere; }
 .project-list .activity-link-arrow { padding-right: 14px; color: var(--ink); font-size: .85rem; }
 .activity-link-image { width: 96px; height: 64px; display: block; object-fit: cover; }
+.activity-link-image.activity-link-logo { padding: 8px; background: #fff; object-fit: contain; }
 .activity-link-tile:has(.activity-link-image),
 .activity-link-video { grid-template-columns: 96px minmax(0, 1fr) auto; }
 .activity-link-tile:hover { border-color: var(--ink); }
