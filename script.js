@@ -348,7 +348,25 @@ if (isEnglish) {
     'Agile Coaches Alliance Italy講演の告知ビジュアル': 'Promotional visual for the Agile Coaches Alliance Italy session',
     'Agile Coaches Alliance公式ロゴ': 'Official Agile Coaches Alliance logo',
     'LeSS実践と継続的改善手法のスライドプレビュー': 'Preview of the slides on LeSS practice and continuous improvement',
-    '渋谷区役所とYOUTRUST就任式の記事プレビュー': 'Preview of the Shibuya City and YOUTRUST appointment ceremony article'
+    '渋谷区役所とYOUTRUST就任式の記事プレビュー': 'Preview of the Shibuya City and YOUTRUST appointment ceremony article',
+    'TECH PLAYインタビュー記事のサムネイル': 'TECH PLAY interview thumbnail',
+    'ソフトバンク人事発表のサムネイル': 'SoftBank executive appointment announcement thumbnail',
+    'Scrum Alliance認定プロフィールのサムネイル': 'Scrum Alliance credential profile thumbnail',
+    'S-PORT公式サイトのサムネイル': 'S-PORT official website thumbnail',
+    '半導体人材育成事業着任記事のサムネイル': 'Semiconductor talent development appointment article thumbnail',
+    '渋谷区役所とYOUTRUSTの就任記事サムネイル': 'Shibuya City and YOUTRUST appointment article thumbnail',
+    '渋谷区の副業人材活用記事のサムネイル': 'Shibuya City external talent initiative article thumbnail',
+    'Mitsukeba公式サイトのサムネイル': 'Mitsukeba official website thumbnail',
+    '東京都立産業技術高専での生成AI概論のサムネイル': 'Generative AI course at Tokyo Metropolitan College of Industrial Technology thumbnail',
+    'SB OAI Japan設立発表のサムネイル': 'SB OAI Japan establishment announcement thumbnail',
+    'SoftBank Group発表のサムネイル': 'SoftBank Group announcement thumbnail',
+    'SoftBank News記事のサムネイル': 'SoftBank News article thumbnail',
+    'SoftBank Group ASI記事のサムネイル': 'SoftBank Group ASI article thumbnail',
+    '日刊工業新聞のAI活用記事サムネイル': 'Nikkan Kogyo Shimbun AI adoption article thumbnail',
+    'HiPro DX講演記事のサムネイル': 'HiPro DX seminar article thumbnail',
+    'CAREER HACKインタビューのサムネイル': 'CAREER HACK interview thumbnail',
+    '東京IPOセミナーのサムネイル': 'Tokyo IPO seminar thumbnail',
+    'Regional SCRUM GATHERING Tokyo 2017講演資料のサムネイル': 'Regional SCRUM GATHERING Tokyo 2017 presentation thumbnail'
   };
 
   document.querySelectorAll('[aria-label], [alt], [title]').forEach((element) => {
