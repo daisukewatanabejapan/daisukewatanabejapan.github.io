@@ -1008,8 +1008,8 @@ footer { font-size: .82rem; }
 }
 .activity-domain {
   display: grid;
-  grid-template-columns: minmax(170px, .38fr) minmax(0, 1.62fr);
-  gap: 48px;
+  grid-template-columns: minmax(250px, .5fr) minmax(0, 1.5fr);
+  gap: 36px;
   padding: 38px 0 48px;
   border-top: 1px solid var(--line);
 }
@@ -1025,6 +1025,7 @@ footer { font-size: .82rem; }
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 .activity-domain-body { min-width: 0; }
 .activity-domain-body > p {
@@ -1036,26 +1037,17 @@ footer { font-size: .82rem; }
 .education-activity .ongoing-activities { margin: 0; }
 .education-activity .project-list { margin: 0; }
 .agile-activity-links {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-column: auto;
   margin-top: 26px;
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
 }
-.agile-activity-links a {
-  position: relative;
-  display: grid;
-  gap: 8px;
-  min-height: 112px;
-  padding: 18px 42px 18px 18px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  color: var(--ink);
+.agile-activity-links .activity-link-copy { display: grid; gap: 4px; }
+.agile-activity-links .activity-link-copy small { color: var(--muted); font-size: .62rem; line-height: 1.35; }
+.agile-activity-links .activity-link-copy strong { color: var(--ink); font-size: .76rem; font-weight: 550; line-height: 1.45; }
+
+@media (max-width: 1100px) {
+  .activity-domain { grid-template-columns: 1fr; gap: 24px; }
+  .activity-domain-heading h4 { max-width: 100%; }
 }
-.agile-activity-links a > span:first-child { color: var(--muted); font-size: .68rem; letter-spacing: .03em; }
-.agile-activity-links strong { font-size: .84rem; font-weight: 550; line-height: 1.5; }
-.agile-activity-links a > span:last-child { position: absolute; top: 18px; right: 18px; color: var(--muted); font-size: .72rem; }
-.agile-activity-links a:hover { background: #f7f7f7; }
 .about-related { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: -72px 0 104px; }
 .lined-list + .about-related { margin-top: 28px; margin-bottom: 0; }
 .about-related a { display: grid; grid-template-columns: 106px 1fr; gap: 14px; align-items: center; padding: 10px; border: 1px solid var(--line); color: var(--ink); }
@@ -1078,7 +1070,7 @@ footer { font-size: .82rem; }
   .role-org { min-height: 0; margin-bottom: 14px !important; }
   .about-related { grid-template-columns: 1fr; margin-top: -56px; }
   .lined-list + .about-related { margin-top: 24px; }
-  .activity-domain { grid-template-columns: 1fr; gap: 24px; }
+  .activity-domain { gap: 24px; }
 }
 
 @media (max-width: 600px) {
@@ -1091,7 +1083,6 @@ footer { font-size: .82rem; }
   .activity-domain { gap: 20px; padding: 30px 0 38px; }
   .activity-domain-heading { gap: 12px; }
   .agile-activity-links { grid-template-columns: 1fr; }
-  .agile-activity-links a { min-height: 96px; }
 }
 
 /* Responsive career timeline */
