@@ -956,6 +956,7 @@ footer { font-size: .82rem; }
 }
 .about-intro p + p { margin-top: 18px; }
 .about-intro .about-position {
+  margin-bottom: 32px;
   color: var(--ink);
   font-size: clamp(1.08rem, 1.7vw, 1.35rem);
   font-weight: 500;
@@ -965,11 +966,12 @@ footer { font-size: .82rem; }
 .about-position .about-position-entry + .about-position-entry { margin-top: 20px; }
 .about-position .about-position-credentials {
   margin: 24px 0 0;
+  color: var(--ink);
   font-size: .78em;
   font-weight: 600;
   line-height: 1.8;
 }
-.about-position-credential-line { display: block; }
+.about-position-credential-line { display: block; color: var(--ink); }
 .about-position-credential-line + .about-position-credential-line { margin-top: .7em; }
 .about-position-en { margin-left: 0; }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
