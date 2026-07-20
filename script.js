@@ -125,7 +125,7 @@ if (isEnglish) {
     '企業DX・アジャイル組織化支援実績を見る': 'View Enterprise DX & Agile Transformation Experience',
     '教育機関・行政・公共団体での社会活動実績を見る': 'View Education, Government & Public Organization Activities',
     '企業におけるAI・ソフトウェアエンジニアリングの実践に加え、教育機関・行政・公共団体、アジャイルコミュニティでの活動を継続しています。': 'Alongside hands-on AI and software engineering in enterprise settings, I remain actively involved with educational institutions, government, public organizations, and the agile community.',
-    '企業でのアジャイルソフトウェアデベロップメント': 'Agile Software Development in Enterprise Organizations',
+    '企業・組織への支援実績': 'Enterprise & Organizational Support Experience',
     '大規模環境におけるAIの社会実装、ソフトウェアエンジニアリング、技術戦略、アジャイルなエンジニアリング組織づくりを通じて、継続的な事業価値の創出に取り組んでいます。': 'I work to create sustained business value through real-world AI implementation at scale, software engineering, technology strategy, and agile engineering organization development.',
     '教育・行政・社会活動': 'Education, Government & Social Activities',
     'アジャイルコミュニティ活動': 'Agile Community Activities',
