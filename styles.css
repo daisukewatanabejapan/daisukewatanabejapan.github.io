@@ -1043,6 +1043,24 @@ footer { font-size: .82rem; }
 .agile-activity-links .activity-link-copy { display: grid; gap: 4px; }
 .agile-activity-links .activity-link-copy small { color: var(--muted); font-size: .62rem; line-height: 1.35; }
 .agile-activity-links .activity-link-copy strong { color: var(--ink); font-size: .76rem; font-weight: 550; line-height: 1.45; }
+.domain-activity-more { margin-top: 30px; }
+.domain-activity-more summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+  font-size: .88rem;
+  font-weight: 600;
+}
+.domain-activity-more summary::-webkit-details-marker { display: none; }
+.domain-activity-more summary span { color: currentColor; font-size: 1.25rem; line-height: 1; transition: transform .2s ease; }
+.domain-activity-more[open] summary span { transform: rotate(45deg); }
+.domain-activity-more .project-list { margin: 12px 0 0; }
 
 @media (max-width: 1100px) {
   .activity-domain { grid-template-columns: 1fr; gap: 24px; }

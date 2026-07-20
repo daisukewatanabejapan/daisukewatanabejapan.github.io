@@ -121,6 +121,8 @@ if (isEnglish) {
     '自己紹介': 'Profile',
     '主な活動': 'Key Activities',
     '企業、社会、コミュニティへ。': 'Across Business, Society & Community.',
+    '企業DX・アジャイル組織化支援実績を見る': 'View Enterprise DX & Agile Transformation Experience',
+    '教育機関・行政・公共団体での社会活動実績を見る': 'View Education, Government & Public Organization Activities',
     '企業におけるAI・ソフトウェアエンジニアリングの実践に加え、教育機関・行政・公共団体、アジャイルコミュニティでの活動を継続しています。': 'Alongside hands-on AI and software engineering in enterprise settings, I remain actively involved with educational institutions, government, public organizations, and the agile community.',
     '企業での活動': 'Enterprise Leadership',
     '大規模環境におけるAIの社会実装、ソフトウェアエンジニアリング、技術戦略、エンジニアリング組織づくりを通じて、継続的な事業価値の創出に取り組んでいます。': 'I work to create sustained business value through real-world AI implementation at scale, software engineering, technology strategy, and engineering organization development.',
