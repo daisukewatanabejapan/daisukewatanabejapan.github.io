@@ -350,6 +350,7 @@ if (isEnglish) {
     'LeSS実践と継続的改善手法のスライドプレビュー': 'Preview of the slides on LeSS practice and continuous improvement',
     '渋谷区役所とYOUTRUST就任式の記事プレビュー': 'Preview of the Shibuya City and YOUTRUST appointment ceremony article',
     'TECH PLAYインタビュー記事のサムネイル': 'TECH PLAY interview thumbnail',
+    'ソフトバンクとOpenAIが挑むAIの社会実装 TECH PLAYインタビューのサムネイル': 'SoftBank and OpenAI real-world AI implementation — TECH PLAY interview thumbnail',
     'ソフトバンク人事発表のサムネイル': 'SoftBank executive appointment announcement thumbnail',
     'Scrum Alliance認定プロフィールのサムネイル': 'Scrum Alliance credential profile thumbnail',
     'S-PORT公式サイトのサムネイル': 'S-PORT official website thumbnail',
