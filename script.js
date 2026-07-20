@@ -88,6 +88,7 @@ if (isEnglish) {
     '2025年にソフトバンク株式会社へ参画しました。2026年より、ソフトバンクグループとOpenAIによる合弁会社SB OAI Japan合同会社のエンジニアリング本部長を務めています。また、企業・教育機関・行政に対し、実践的なアジャイル組織づくり、': 'I joined SoftBank Corp. in 2025. Since 2026, I have served as VP and Head of Engineering at SB OAI Japan GK, the joint venture between SoftBank Group and OpenAI. I also support the growth of organizations and people across companies, educational institutions, and government through practical agile organization building, technical support in ',
     '2025年にソフトバンク株式会社へ参画しました。2026年より、ソフトバンクグループとOpenAIによる合弁会社SB OAI Japan合同会社のエンジニアリング本部長を務めています。': 'I joined SoftBank Corp. in 2025. Since 2026, I have served as VP and Head of Engineering at SB OAI Japan GK, the joint venture between SoftBank Group and OpenAI.',
     '2025年にソフトバンク株式会社へ参画し、2026年より現職を務めています。': 'I joined SoftBank Corp. in 2025 and have served in my current role since 2026.',
+    'AIの社会実装とソフトウェアエンジニアリング、持続可能な組織づくりに取り組んでいます。': 'I work on real-world AI implementation, software engineering, and building sustainable organizations.',
     'AI・ソフトウェアエンジニアリング': 'AI and software engineering',
     '分野の技術支援、講演・教育活動を通じて、組織と人材の成長を支援しています。': ', and speaking and educational activities.',
     '半導体工学を基盤とし、計算基盤からソフトウェア、エンタープライズ領域までを横断しながら、大規模環境におけるAIの社会実装と事業価値の創出を推進しています。': 'With a foundation in semiconductor engineering, I work across computing infrastructure, software, and enterprise systems to advance AI implementation and business value creation at scale.',
