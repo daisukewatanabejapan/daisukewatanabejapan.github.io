@@ -353,6 +353,7 @@ if (isEnglish) {
     'ソフトバンクとOpenAIが挑むAIの社会実装 TECH PLAYインタビューのサムネイル': 'SoftBank and OpenAI real-world AI implementation — TECH PLAY interview thumbnail',
     'ソフトバンク人事発表のサムネイル': 'SoftBank executive appointment announcement thumbnail',
     'Scrum Alliance認定プロフィールのサムネイル': 'Scrum Alliance credential profile thumbnail',
+    'Scrum Alliance公式ロゴ': 'Official Scrum Alliance logo',
     'S-PORT公式サイトのサムネイル': 'S-PORT official website thumbnail',
     '半導体人材育成事業着任記事のサムネイル': 'Semiconductor talent development appointment article thumbnail',
     '渋谷区役所とYOUTRUSTの就任記事サムネイル': 'Shibuya City and YOUTRUST appointment article thumbnail',
