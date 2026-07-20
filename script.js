@@ -53,6 +53,7 @@ if (isEnglish) {
     'エンジニアリング本部長': 'Head of Engineering',
     '法人事業統括 SB OAI本部': 'Enterprise Business Unit, SB OAI Division',
     '法人事業統括 SB OAI本部 エンジニアリング統括部長': 'Enterprise Business Unit, SB OAI Division — Head of Engineering Division',
+    'SB OAI本部 エンジニアリング統括部長': 'Head of Engineering Division, SB OAI Division',
     'エンジニアリング統括部長': 'Head of Engineering Division',
     'グループASI戦略本部 /': 'Group ASI Strategy Division /',
     'グループASI戦略本部': 'Group ASI Strategy Division',
