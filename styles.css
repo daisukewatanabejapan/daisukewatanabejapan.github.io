@@ -1098,7 +1098,7 @@ footer { font-size: .82rem; }
 .support-description li { position: relative; padding-left: 1.15em; }
 .support-description li::before { position: absolute; left: 0; content: "・"; }
 .support-note { margin-top: 18px !important; color: var(--ink); }
-.support-label { color: var(--ink); font-size: clamp(1rem, 1.35vw, 1.18rem); font-weight: 600; line-height: 1.55; letter-spacing: .02em; }
+.support-label { color: var(--ink); font-size: clamp(1.35rem, 2vw, 1.6rem); font-weight: 600; line-height: 1.4; letter-spacing: -.01em; }
 .no-break { white-space: nowrap; }
 .support-overview + .social-activities-more { margin-top: 0; }
 .social-activities-more summary {
