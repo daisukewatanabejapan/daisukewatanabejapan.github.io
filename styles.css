@@ -966,6 +966,8 @@ footer { font-size: .82rem; }
   line-height: 1.55;
 }
 .about-position .about-position-entry { margin: 0; }
+.about-position .about-position-entry-compact { line-height: 1.32; }
+.about-position .about-position-entry-compact > strong { display: block; }
 .about-position .about-position-entry + .about-position-entry { margin-top: 20px; }
 .about-position .about-position-org,
 .about-position .about-position-ja-title,
