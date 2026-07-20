@@ -127,6 +127,8 @@ if (isEnglish) {
     '特別講師': 'Guest Lecturer',
     '特別講師（2020–2021）': 'Guest Lecturer (2020–2021)',
     '東京都自閉症協会': 'Tokyo Autism Association',
+    'NPO法人 東京都自閉症協会': 'Tokyo Autism Association (NPO)',
+    '2019–現在': '2019–Present',
     'プログラミング講師・マインドフルネス講師・AI講師': 'Programming, mindfulness, and AI instructor',
     '企業DX・アジャイル組織化支援': 'Enterprise DX & Agile Transformation Support',
     '日本生命保険相互会社': 'Nippon Life Insurance Company',
