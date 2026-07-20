@@ -116,7 +116,7 @@ if (isEnglish) {
     '企業・教育機関・行政・公共団体での活動': 'Activities with Companies, Educational Institutions, Government & Public Organizations',
     '企業・教育機関・行政・公共団体において、実践的なアジャイル組織づくり、': 'Across companies, educational institutions, government, and public organizations, I support sustainable organizational and talent development through practical agile organization building, technical support in ',
     '分野の技術支援、技術顧問、講演・教育活動などを通じて、組織と人材の持続的な成長を支援しています。これまでの活動の一部をご紹介します。': ', technical advisory work, and speaking and educational activities. Selected examples of these activities are presented below.',
-    '教育・社会活動': 'Education & Community',
+    '教育機関・行政・公共団体での社会活動': 'Social Activities with Educational Institutions, Government & Public Organizations',
     '継続中': 'Ongoing',
     '東京都立産業技術高等専門学校': 'Tokyo Metropolitan College of Industrial Technology',
     '「生成AI概論」講師': 'Lecturer, Introduction to Generative AI',
