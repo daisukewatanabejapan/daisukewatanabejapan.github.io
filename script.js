@@ -228,7 +228,7 @@ if (isEnglish) {
     'マネジャー': 'Manager',
     'モバイル・ソーシャルアプリ、広告・検索領域の開発運営と、アジャイル開発・新規事業企画に携わりました。': 'Led development and operations for mobile and social applications, advertising and search, agile development, and new business planning.',
     'スマートフォン市場とコンテンツビジネス': 'Smartphone Market & Content Business',
-    '株式会社日本テレビビデオ': 'Nippon Television Video Corporation',
+    '日本テレビホールディングス株式会社／株式会社日本テレビビデオ': 'Nippon Television Holdings, Inc. / Nippon Television Video Corporation',
     'プロジェクトマネジャー': 'Project Manager',
     '日本テレビの番組Webサイト、箱根駅伝・選挙速報システム、読売新聞の主要ニュースメディアを開発しました。': 'Developed Nippon TV program websites, real-time Hakone Ekiden and national election systems, and major Yomiuri Shimbun news services.',
     'プログラマー': 'Programmer',
