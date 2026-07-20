@@ -69,6 +69,7 @@ if (isEnglish) {
     'ソフトバンク×OpenAIが挑む「AIの社会実装」': 'SoftBank × OpenAI: Bringing AI into the Real World',
     '人事について': 'Executive Appointment',
     'Media · 日刊工業新聞': 'Media · The Nikkan Kogyo Shimbun',
+    '日刊工業新聞': 'The Nikkan Kogyo Shimbun',
     'LINEヤフーにおける生成AI活用': 'Generative AI Adoption at LY Corporation',
     '過去の掲載・活動を見る': 'View more features and activities',
     '生成AIに関するFD講演会': 'Faculty Development Seminar on Generative AI',
@@ -235,10 +236,50 @@ if (isEnglish) {
     node.nodeValue = value.replace(key, translations[key]);
   });
 
+  const attributeTranslations = {
+    'ページ上部へ': 'Back to top',
+    'メインナビゲーション': 'Main navigation',
+    '現在の主な役職': 'Current leadership roles',
+    '主な認定・社会活動': 'Key credentials and public roles',
+    '哲学': 'Philosophy',
+    '職務経歴タイムライン': 'Career timeline',
+    '講演一覧': 'Talks and speaking engagements',
+    '渡邊大輔のポートレート': 'Portrait of Daisuke Watanabe',
+    'TECH PLAY掲載記事のプレビュー': 'Preview of the TECH PLAY feature',
+    'TECH PLAY記事のプレビュー': 'Preview of the TECH PLAY article',
+    'Agile Japan 2026公式メインビジュアル': 'Official Agile Japan 2026 visual',
+    'Yahoo! JAPAN CTO・VPoEキャリアトークのサムネイル': 'Yahoo! JAPAN CTO/VPoE Career Talk thumbnail',
+    'Yahoo! JAPAN CTO VPoEキャリアトークのサムネイル': 'Yahoo! JAPAN CTO/VPoE Career Talk thumbnail',
+    '佐世保高専で生成AIのFD講演を行う渡邊大輔': 'Daisuke Watanabe presenting a generative AI faculty development seminar at Sasebo KOSEN',
+    'ソフトバンク株式会社プレスリリースのプレビュー': 'Preview of the SoftBank Corp. press release',
+    '日刊工業新聞のLINEヤフーAI活用記事のプレビュー': 'Preview of The Nikkan Kogyo Shimbun article on AI adoption at LY Corporation',
+    'Scrum Alliance認定プロフィールのプレビュー': 'Preview of the Scrum Alliance credential profile',
+    'SB OAI Japan設立発表のプレビュー': 'Preview of the SB OAI Japan establishment announcement',
+    'Patching as a Service発表のプレビュー': 'Preview of the Patching as a Service announcement',
+    'Patching as a Service解説のプレビュー': 'Preview of the Patching as a Service overview',
+    'ソフトバンク人事発表のプレビュー': 'Preview of the SoftBank executive appointment announcement',
+    'ASI戦略記事のプレビュー': 'Preview of the ASI strategy article',
+    '日刊工業新聞記事のプレビュー': 'Preview of The Nikkan Kogyo Shimbun article',
+    'HiPro掲載のヤフーDX講演ページのプレビュー': 'Preview of the HiPro page for the Yahoo! JAPAN DX seminar',
+    'Gunosyインタビューのプレビュー': 'Preview of the Gunosy interview',
+    'スマートフォン市場とコンテンツビジネス講演のプレビュー': 'Preview of the smartphone market and content business seminar',
+    'TECHNO-FRONTIER 2026公式ビジュアル': 'Official TECHNO-FRONTIER 2026 visual',
+    'Agile Coaches Alliance Italy講演の告知ビジュアル': 'Promotional visual for the Agile Coaches Alliance Italy session',
+    'LeSS実践と継続的改善手法のスライドプレビュー': 'Preview of the slides on LeSS practice and continuous improvement',
+    '渋谷区役所とYOUTRUST就任式の記事プレビュー': 'Preview of the Shibuya City and YOUTRUST appointment ceremony article'
+  };
+
+  document.querySelectorAll('[aria-label], [alt], [title]').forEach((element) => {
+    ['aria-label', 'alt', 'title'].forEach((attribute) => {
+      const value = element.getAttribute(attribute);
+      if (value && attributeTranslations[value]) element.setAttribute(attribute, attributeTranslations[value]);
+    });
+  });
+
   document.querySelectorAll('.lang-link').forEach((link) => {
     link.textContent = 'JA';
     link.href = '/';
-    link.setAttribute('aria-label', '日本語に切り替える');
+    link.setAttribute('aria-label', 'Switch to Japanese');
   });
 
   document.querySelectorAll('.site-header a[href^="#"]').forEach((link) => {

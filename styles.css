@@ -1306,6 +1306,42 @@ footer { font-size: .82rem; }
   grid-template-columns: 120px minmax(0, 1fr);
   gap: 18px 28px;
 }
+
+/* Profile layout: keep credentials readable and the portrait visually balanced */
+@media (max-width: 900px) {
+  .hero-profile {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+  }
+  .hero-overview {
+    width: 100%;
+  }
+  .hero-copy,
+  .hero-credentials {
+    grid-column: 1 / -1;
+  }
+  .hero-credentials {
+    justify-self: stretch;
+  }
+  .portrait {
+    width: min(260px, 62vw);
+    max-width: 260px;
+    margin: 0 auto;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-credentials-label {
+    margin-bottom: 12px;
+  }
+  .portrait {
+    width: min(230px, 62vw);
+    max-width: 230px;
+    margin: 8px auto 0;
+    justify-self: center;
+  }
+}
 .timeline .year { grid-row: 1 / span 2; }
 .timeline .career-heading,
 .timeline .career-detail { grid-column: 2; min-width: 0; }
