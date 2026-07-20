@@ -1077,7 +1077,8 @@ footer { font-size: .82rem; }
 }
 .agile-activity-list { margin: 0; }
 .about-hero-visual {
-  margin: 0 0 56px;
+  width: 84%;
+  margin: 0 auto 56px;
   overflow: hidden;
   border: 1px solid var(--line);
 }
@@ -1160,10 +1161,11 @@ footer { font-size: .82rem; }
   .about-related { grid-template-columns: 1fr; margin-top: -56px; }
   .lined-list + .about-related { margin-top: 24px; }
   .activity-domain { gap: 24px; }
-  .about-hero-visual { margin-bottom: 44px; }
+  .about-hero-visual { width: 92%; margin-right: auto; margin-bottom: 44px; margin-left: auto; }
 }
 
 @media (max-width: 600px) {
+  .about-hero-visual { width: 100%; margin-bottom: 28px; }
   .about-en h4 { font-size: .78rem; letter-spacing: -.035em; }
   .about-intro { margin-bottom: 52px; }
   .about-position .about-position-credentials { font-size: .72em; line-height: 1.85; }
