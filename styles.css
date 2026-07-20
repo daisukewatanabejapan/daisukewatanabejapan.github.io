@@ -966,15 +966,16 @@ footer { font-size: .82rem; }
 .about-position .about-position-credentials {
   margin: 24px 0 0;
   font-size: .78em;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.8;
 }
-.about-position-en { margin-left: .7em; }
+.about-position-en { margin-left: 0; }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
 .about-position strong { color: var(--ink); font-weight: 600; }
-.about-position .about-position-org { color: var(--muted); font-size: .82em; font-weight: 400; }
+.about-position .about-position-org { color: var(--ink); font-size: .82em; font-weight: 600; }
 .about-position strong span,
-.about-position .about-position-credentials span { color: inherit; font-size: inherit; font-weight: inherit; }
+.about-position .about-position-credentials span,
+.about-position .about-position-credentials strong { color: inherit; font-size: inherit; font-weight: inherit; }
 .about-ja {
   margin-top: 0;
 }
@@ -1139,7 +1140,6 @@ footer { font-size: .82rem; }
 @media (max-width: 600px) {
   .about-en h4 { font-size: .78rem; letter-spacing: -.035em; }
   .about-intro { margin-bottom: 52px; }
-  .about-position-en { display: block; margin-left: 0; }
   .about-position .about-position-credentials { font-size: .72em; line-height: 1.85; }
   .roles { margin-bottom: 72px; }
   .activities-heading { padding: 48px 0 40px; }
