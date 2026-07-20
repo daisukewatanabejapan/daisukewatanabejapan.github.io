@@ -135,7 +135,7 @@ if (isEnglish) {
     'アジャイルコミュニティ活動': 'Agile Community Activities',
     'アジャイルソフトウェアデベロップメント': 'Agile Software Development',
     '2000–継続中': '2000–Present',
-    'アジャイルコミュニティへの貢献': 'Contributions to the Agile Community',
+    '国内外のアジャイルコミュニティへの貢献': 'Contributions to Agile Communities in Japan and Abroad',
     'Scrum、XP、Lean、DevOpsの実践と、国内外での知見共有・コミュニティ活動を継続しています。': 'I continue to practice Scrum, XP, Lean, and DevOps while sharing insights and contributing to communities in Japan and abroad.',
     '講演・技術・アジャイルに関するご相談はこちら': 'Contact me about speaking, technology, and agile',
     'Certified Scrum Alliance Trainer™（CSAT™）': 'Certified Scrum Alliance Trainer™ (CSAT™)',
