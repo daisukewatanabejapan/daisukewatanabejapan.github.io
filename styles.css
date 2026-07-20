@@ -1138,6 +1138,52 @@ footer { font-size: .82rem; }
 }
 .social-activities-more .lined-list,
 .social-activities-more .project-list { margin-bottom: 0; }
+.ongoing-activities { margin-top: 52px; }
+.ongoing-activities h4 {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: .88rem;
+  font-weight: 650;
+  letter-spacing: .04em;
+}
+.ongoing-activities .project-list { margin-bottom: 0; }
+.activity-link-tile {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  min-height: 54px;
+  margin-top: 4px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+}
+.activity-link-group {
+  grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+.project-list > li > .activity-link-tile { grid-column: 2 / -1; }
+.project-list .activity-link-thumb {
+  display: grid;
+  place-items: center;
+  align-self: stretch;
+  padding: 8px;
+  background: #f4f5f6;
+  color: var(--ink);
+  font-size: .64rem;
+  font-weight: 650;
+  letter-spacing: .06em;
+  text-align: center;
+}
+.project-list .activity-link-copy { color: var(--ink); font-size: .82rem; line-height: 1.45; }
+.project-list .activity-link-arrow { padding-right: 14px; color: var(--ink); font-size: .85rem; }
+.activity-link-image { width: 96px; height: 64px; display: block; object-fit: cover; }
+.activity-link-video { grid-template-columns: 96px minmax(0, 1fr) auto; }
+.activity-link-tile:hover { border-color: var(--ink); }
 
 @media (max-width: 900px) {
   .featured-more-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1148,7 +1194,10 @@ footer { font-size: .82rem; }
   .featured-more summary,
   .career-archive summary { padding: 18px 0; font-size: .9rem; }
   .social-activities-more { margin-top: 36px; }
+  .ongoing-activities { margin-top: 36px; }
   .social-activities-more summary { padding: 16px 0; font-size: .9rem; }
+  .activity-link-group { grid-column: 1; grid-template-columns: 1fr; margin-top: 10px; }
+  .project-list > li > .activity-link-tile { grid-column: 1; margin-top: 10px; }
 }
 
 /* Talks page */
