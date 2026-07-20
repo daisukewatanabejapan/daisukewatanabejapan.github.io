@@ -140,6 +140,7 @@ if (isEnglish) {
     '講演・技術・アジャイルに関するご相談はこちら': 'Contact me about speaking, technology, and agile',
     'Certified Scrum Alliance Trainer™（CSAT™）': 'Certified Scrum Alliance Trainer™ (CSAT™)',
     'Certified Team Coach™（CTC™）': 'Certified Team Coach™ (CTC™)',
+    'Accredited Team Coach（ATC）': 'Accredited Team Coach (ATC)',
     '基調講演': 'Keynote',
     '国際認定資格と国内外のコミュニティ活動を通じて、実践から得た知見を継続的に共有しています。': 'Through international credentials and community activities in Japan and abroad, I continue to share insights grounded in practice.',
     '国内外の講演・コミュニティ活動': 'Speaking & Community Activities in Japan and Abroad',
