@@ -957,12 +957,13 @@ footer { font-size: .82rem; }
 .about-intro p + p { margin-top: 18px; }
 .about-intro .about-position {
   color: var(--ink);
+  font-size: clamp(1.08rem, 1.7vw, 1.35rem);
   font-weight: 500;
-  line-height: 1.65;
+  line-height: 1.55;
 }
 .about-position span { color: var(--muted); font-size: .86em; font-weight: 400; }
 .about-position strong { color: var(--ink); font-weight: 600; }
-.about-position .about-position-org { color: var(--muted); font-size: .88em; font-weight: 400; }
+.about-position .about-position-org { color: var(--muted); font-size: .82em; font-weight: 400; }
 .about-ja {
   margin-top: 0;
 }
