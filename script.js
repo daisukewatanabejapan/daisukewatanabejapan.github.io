@@ -96,6 +96,7 @@ if (isEnglish) {
     '日本代表': 'Japan Chapter Lead',
     'Agile Coaches Alliance 日本代表': 'Agile Coaches Alliance Japan Chapter Lead',
     '国立高専機構 半導体人材育成センター': 'KOSEN Semiconductor Human Resource Development Center',
+    '技術を、人と社会の力に。': 'Transforming Technology into Strength for People and Society.',
     '特任フェロー': 'Specially Appointed Fellow',
     '産学官連携統括': 'Head of Industry–Academia–Government Collaboration',
     '渋谷区': 'Shibuya City',
