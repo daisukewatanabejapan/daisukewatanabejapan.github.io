@@ -1093,7 +1093,11 @@ footer { font-size: .82rem; }
   border-top: 1px solid var(--line);
 }
 .support-overview p { margin: 0; }
-.support-overview > p:last-child { color: var(--muted); line-height: 1.9; }
+.support-description { color: var(--muted); line-height: 1.8; }
+.support-description ul { display: grid; gap: 5px; margin: 14px 0; padding: 0; list-style: none; }
+.support-description li { position: relative; padding-left: 1.15em; }
+.support-description li::before { position: absolute; left: 0; content: "・"; }
+.support-note { margin-top: 18px !important; color: var(--ink); }
 .support-label { color: var(--ink); font-size: .8rem; font-weight: 600; letter-spacing: .06em; }
 .no-break { white-space: nowrap; }
 .support-overview + .social-activities-more { margin-top: 0; }
@@ -1113,7 +1117,7 @@ footer { font-size: .82rem; }
 
 @media (max-width: 600px) {
   .support-overview { grid-template-columns: 1fr; gap: 12px; padding: 22px 0 24px; }
-  .support-overview > p:last-child { line-height: 1.8; }
+  .support-description { line-height: 1.8; }
 }
 .social-activities-more summary::-webkit-details-marker { display: none; }
 .social-activities-more summary span {
