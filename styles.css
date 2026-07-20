@@ -1300,3 +1300,51 @@ footer { font-size: .82rem; }
   .timeline-links span { font-size: .68rem; }
   .timeline-links strong { font-size: .8rem; }
 }
+
+/* Career links: consistent horizontal cards across desktop and mobile */
+.timeline article {
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 18px 28px;
+}
+.timeline .year { grid-row: 1 / span 2; }
+.timeline .career-heading,
+.timeline .career-detail { grid-column: 2; min-width: 0; }
+.timeline-links a {
+  display: grid;
+  grid-template-columns: minmax(88px, 34%) minmax(0, 1fr);
+  align-items: center;
+  min-height: 76px;
+  padding: 8px;
+  overflow: hidden;
+}
+.timeline-links a::after {
+  right: 10px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+.timeline-links img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.timeline-links span {
+  width: auto;
+  min-height: 0;
+  padding: 0 24px 0 10px;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+@media (max-width: 900px) {
+  .timeline article { grid-template-columns: 92px minmax(0, 1fr); gap: 18px 24px; }
+}
+
+@media (max-width: 600px) {
+  .timeline article { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .timeline .year { grid-row: auto; }
+  .timeline .career-heading,
+  .timeline .career-detail { grid-column: 1; }
+  .timeline-links a { grid-template-columns: 104px minmax(0, 1fr); min-height: 76px; padding: 9px; }
+  .timeline-links span { padding-left: 10px; font-size: .68rem; }
+}
