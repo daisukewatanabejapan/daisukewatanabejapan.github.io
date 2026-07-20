@@ -1049,7 +1049,8 @@ footer { font-size: .82rem; }
   padding: 38px 0 48px;
   border-top: 1px solid var(--line);
 }
-.activity-domain.education-activity { grid-template-columns: 1fr; }
+.activity-domain.education-activity,
+.activity-domain.enterprise-activity { grid-template-columns: 1fr; }
 .activity-domain-heading { display: flex; gap: 18px; align-items: baseline; }
 .activity-domain-heading span {
   color: var(--muted);
@@ -1066,7 +1067,8 @@ footer { font-size: .82rem; }
 }
 .activity-domain-body { min-width: 0; }
 .education-activity-visual {
-  margin: 0 0 30px;
+  width: 88%;
+  margin: 0 auto 36px;
 }
 .education-activity-visual img {
   display: block;
@@ -1174,7 +1176,7 @@ footer { font-size: .82rem; }
 }
 
 @media (max-width: 600px) {
-  .education-activity-visual { margin-bottom: 24px; }
+  .education-activity-visual { width: 100%; margin-bottom: 28px; }
   .about-hero-visual { width: 100%; margin-bottom: 28px; }
   .about-en h4 { font-size: .78rem; letter-spacing: -.035em; }
   .about-intro { margin-bottom: 52px; }
