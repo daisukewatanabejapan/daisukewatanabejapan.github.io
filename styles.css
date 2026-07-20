@@ -988,6 +988,14 @@ footer { font-size: .82rem; }
 .about-position strong span,
 .about-position .about-position-credentials span,
 .about-position .about-position-credentials strong { color: inherit; font-size: inherit; font-weight: inherit; }
+.about-intro .about-focus-summary {
+  margin: 0 0 24px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
 .about-ja {
   margin-top: 0;
 }
