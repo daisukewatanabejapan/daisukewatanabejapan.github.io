@@ -1093,12 +1093,10 @@ footer { font-size: .82rem; }
   border-top: 1px solid var(--line);
 }
 .support-overview p { margin: 0; }
-.support-description { color: var(--muted); line-height: 1.8; }
-.support-description ul { display: grid; gap: 5px; margin: 14px 0; padding: 0; list-style: none; }
-.support-description li { position: relative; padding-left: 1.15em; }
-.support-description li::before { position: absolute; left: 0; content: "・"; }
-.support-note { margin-top: 18px !important; color: var(--ink); }
-.support-label { color: var(--ink); font-size: clamp(1.35rem, 2vw, 1.6rem); font-weight: 600; line-height: 1.4; letter-spacing: -.01em; }
+.support-title { margin: 0; color: var(--ink); font-size: clamp(1.55rem, 2.5vw, 2.15rem); font-weight: 500; line-height: 1.35; letter-spacing: -.025em; }
+.support-content { min-width: 0; }
+.support-description { margin-top: 18px !important; color: var(--muted); line-height: 1.9; }
+.support-label { color: var(--ink); font-size: clamp(1.1rem, 1.55vw, 1.3rem); font-weight: 600; line-height: 1.5; letter-spacing: -.01em; }
 .no-break { white-space: nowrap; }
 .support-overview + .social-activities-more { margin-top: 0; }
 .social-activities-more summary {
@@ -1117,6 +1115,7 @@ footer { font-size: .82rem; }
 
 @media (max-width: 600px) {
   .support-overview { grid-template-columns: 1fr; gap: 12px; padding: 22px 0 24px; }
+  .support-title { margin-bottom: 8px; }
   .support-description { line-height: 1.8; }
 }
 .social-activities-more summary::-webkit-details-marker { display: none; }
