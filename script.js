@@ -26,6 +26,7 @@ wordmark?.addEventListener('click', (event) => {
 });
 
 if (isEnglish) {
+  document.querySelectorAll('.ja-only').forEach((element) => element.remove());
   document.documentElement.lang = 'en';
   document.title = 'Daisuke Watanabe | Engineering & AI Leadership';
   const description = document.querySelector('meta[name="description"]');
@@ -57,6 +58,7 @@ if (isEnglish) {
     'メディア・検索ドメイン サイエンスSBU': 'Media & Search Domain, Science SBU',
     'AI、ソフトウェアエンジニアリング、健全な組織づくりを通じて、事業と社会の持続的な発展に貢献することを目指しています。': 'I work to support the sustainable development of business and society through AI, software engineering, and healthy organizational design.',
     'お仕事・講演・技術顧問のご相談はこちら': 'Work, speaking & technical advisory inquiries',
+    '講演・技術支援・アジャイル組織化支援に関するご相談はこちら': 'Work, speaking & technical advisory inquiries',
     'SB OAI Japan合同会社': 'SB OAI Japan GK',
     '特任フェロー／産学官連携統括': 'Specially Appointed Fellow / Head of Industry–Academia–Government Collaboration',
     'YouTubeで見る ↗': 'Watch on YouTube ↗',
@@ -123,6 +125,7 @@ if (isEnglish) {
     '主な活動': 'Key Activities',
     '企業、社会、コミュニティへ。': 'Across Business, Society & Community.',
     '企業DX・アジャイル組織化支援実績を見る': 'View Enterprise DX & Agile Transformation Experience',
+    '企業・組織への支援実績を見る': 'View Enterprise DX & Agile Transformation Experience',
     '教育機関・行政・公共団体での社会活動実績を見る': 'View Education, Government & Public Organization Activities',
     '企業におけるAI・ソフトウェアエンジニアリングの実践に加え、': 'Alongside hands-on AI and software engineering in enterprise settings,',
     '教育機関・行政・公共団体、アジャイルコミュニティでの活動を継続しています。': 'I remain actively involved with educational institutions, government, public organizations, and the agile community.',
