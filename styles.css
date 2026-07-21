@@ -1726,3 +1726,14 @@ footer { font-size: .82rem; }
   #talks,
   #expertise { padding-bottom: 94px; }
 }
+
+/* Tighter rhythm across the final page sequence */
+.statement { min-height: 74vh; }
+#expertise { padding-bottom: 110px; }
+.closing { min-height: 62vh; }
+
+@media (max-width: 600px) {
+  .statement { min-height: 74vh; }
+  #expertise { padding-bottom: 78px; }
+  .closing { min-height: 62vh; }
+}
