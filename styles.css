@@ -921,6 +921,43 @@ footer { font-size: .82rem; }
 .expertise-grid h3 { margin: 28px 0 22px; font-size: 1.28rem; line-height: 1.4; }
 .expertise-grid ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
 .expertise-grid li { padding: 6px 10px; border: 1px solid var(--line); background: var(--paper); color: #555; font-size: .78rem; line-height: 1.45; }
+.expertise-activities {
+  margin-top: 42px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+.expertise-activities > p {
+  max-width: 780px;
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: .96rem;
+  line-height: 1.85;
+}
+.expertise-activities ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.expertise-activities li {
+  position: relative;
+  padding-left: 16px;
+  color: var(--ink);
+  font-size: .9rem;
+  line-height: 1.65;
+}
+.expertise-activities li::before {
+  content: "";
+  position: absolute;
+  top: .78em;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--muted);
+}
 
 /* Current roles: corporate and public responsibilities */
 .roles {
@@ -1184,6 +1221,9 @@ footer { font-size: .82rem; }
 }
 
 @media (max-width: 600px) {
+  .expertise-activities { margin-top: 30px; padding-top: 24px; }
+  .expertise-activities > p { margin-bottom: 20px; font-size: .92rem; }
+  .expertise-activities ul { grid-template-columns: 1fr; gap: 8px; }
   .education-activity-visual { width: 100%; margin-bottom: 28px; }
   .about-hero-visual { width: 100%; margin-bottom: 28px; }
   .about-en h4 { font-size: .78rem; letter-spacing: -.035em; }
