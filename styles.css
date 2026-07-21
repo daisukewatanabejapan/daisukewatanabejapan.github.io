@@ -1711,3 +1711,18 @@ footer { font-size: .82rem; }
   .timeline-links a { grid-template-columns: 104px minmax(0, 1fr); min-height: 76px; padding: 9px; }
   .timeline-links span { padding-left: 10px; font-size: .68rem; }
 }
+
+/* Slightly tighter page rhythm without changing section interiors */
+.featured { padding-bottom: 100px; }
+#about,
+#career,
+#talks,
+#expertise { padding-bottom: 132px; }
+
+@media (max-width: 600px) {
+  .featured { padding-bottom: 74px; }
+  #about,
+  #career,
+  #talks,
+  #expertise { padding-bottom: 94px; }
+}
