@@ -1867,6 +1867,21 @@ html[lang="ja"] :where(p, li, dd) { text-wrap: pretty; }
   max-width: 680px;
   margin: 0;
 }
+.statement .statement-reflection {
+  grid-column: 2;
+  max-width: 760px;
+  margin-top: 10px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 14px;
+}
+.statement .statement-reflection p {
+  max-width: none;
+  color: var(--muted);
+  font-size: .98rem;
+  line-height: 1.9;
+}
 
 @media (max-width: 600px) {
   .statement {
@@ -1876,8 +1891,14 @@ html[lang="ja"] :where(p, li, dd) { text-wrap: pretty; }
   }
   .statement::before { top: 24px; left: 20px; }
   .statement blockquote,
-  .statement p { grid-column: 1; }
+  .statement p,
+  .statement .statement-reflection { grid-column: 1; }
   .statement blockquote { font-size: clamp(2.1rem, 10vw, 3.2rem); }
+  .statement .statement-reflection {
+    margin-top: 4px;
+    padding-top: 22px;
+    gap: 16px;
+  }
 }
 
 /* Match the closing message to the Philosophy layout */
