@@ -29,19 +29,25 @@ if (isEnglish) {
   document.querySelectorAll('.ja-only').forEach((element) => element.remove());
   document.querySelectorAll('.hero-role-ja, .about-position-ja-title').forEach((element) => element.remove());
   document.documentElement.lang = 'en';
-  document.title = 'Daisuke Watanabe | Engineering & AI Leadership';
+  document.title = 'Daisuke Watanabe | SB OAI Japan · AI Engineering';
   const description = document.querySelector('meta[name="description"]');
-  if (description) description.content = 'Daisuke Watanabe — engineering leader focused on enterprise AI implementation, software engineering, and organizational development.';
+  if (description) description.content = 'Official profile of Daisuke Watanabe, VP, Head of Engineering at SB OAI Japan, focused on AI Engineering, Enterprise AI, Software Engineering, and Engineering Leadership.';
   const canonical = document.querySelector('link[rel="canonical"]');
   if (canonical) canonical.href = 'https://daisukewatanabejapan.github.io/english.html';
   const ogLocale = document.querySelector('meta[property="og:locale"]');
   if (ogLocale) ogLocale.content = 'en_US';
+  const ogLocaleAlternate = document.querySelector('meta[property="og:locale:alternate"]');
+  if (ogLocaleAlternate) ogLocaleAlternate.content = 'ja_JP';
   const ogTitle = document.querySelector('meta[property="og:title"]');
-  if (ogTitle) ogTitle.content = 'Daisuke Watanabe | Engineering & AI Leadership';
+  if (ogTitle) ogTitle.content = 'Daisuke Watanabe | SB OAI Japan · AI Engineering';
   const ogDescription = document.querySelector('meta[property="og:description"]');
-  if (ogDescription) ogDescription.content = 'Official profile of Daisuke Watanabe, VP and Head of Engineering at SB OAI Japan GK, focused on enterprise AI implementation at scale.';
+  if (ogDescription) ogDescription.content = 'Official profile of Daisuke Watanabe, VP, Head of Engineering at SB OAI Japan, focused on Enterprise AI, Software Engineering, and Engineering Leadership.';
   const ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.content = 'https://daisukewatanabejapan.github.io/english.html';
+  const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twitterTitle) twitterTitle.content = 'Daisuke Watanabe | SB OAI Japan · AI Engineering';
+  const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  if (twitterDescription) twitterDescription.content = 'Official profile of Daisuke Watanabe, VP, Head of Engineering at SB OAI Japan, focused on Enterprise AI, Software Engineering, and Engineering Leadership.';
 
   const translations = {
     '本サイトは個人として運営しており、掲載内容は所属組織の公式見解を示すものではありません。': 'This website represents my personal activities and does not necessarily reflect the views of my employers.',
