@@ -334,7 +334,8 @@ if (isEnglish) {
     '行政DX・スタートアップ支援': 'Government DX & Startup Support',
     '自治体におけるDX推進と人材支援': 'DX transformation and talent support in local government',
     '関連情報 ↗': 'Related information ↗',
-    '人と技術が、ともに成長できる未来へ。': 'Toward a future where people and technology grow together.'
+    '人と技術が、ともに成長できる未来へ。': 'Toward a future where people and technology grow together.',
+    'SB OAI Japan インタビュー': 'SB OAI Japan Interview'
   };
 
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
