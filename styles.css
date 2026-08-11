@@ -976,6 +976,28 @@ footer { font-size: .82rem; }
   letter-spacing: .07em;
 }
 .expertise-grid ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.expertise-grid .expertise-domain-list {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.expertise-grid .expertise-domain-list > li {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.expertise-grid .expertise-domain-list > li > span {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: #555;
+  font-size: .78rem;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
 .expertise-grid li { padding: 6px 10px; border: 1px solid var(--line); background: var(--paper); color: #555; font-size: .78rem; line-height: 1.45; }
 .expertise-activities {
   margin-top: 42px;
@@ -1844,6 +1866,7 @@ footer { font-size: .82rem; }
   #expertise .large-copy { margin-bottom: 36px; }
   .expertise-grid article,
   .expertise-grid article + article { padding: 18px; }
+  .expertise-grid .expertise-domain-list > li { flex-direction: column; align-items: flex-start; }
   .expertise-metrics { min-height: 0; margin-bottom: 18px; padding-bottom: 18px; }
   .expertise-metrics-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
   .expertise-metric strong { font-size: 2rem; }

@@ -273,6 +273,7 @@ if (isEnglish) {
     '公共・社会インフラ': 'Public & Social Infrastructure',
     '産業システム・製造': 'Industrial Systems & Manufacturing',
     '自然言語処理': 'Natural Language Processing',
+    '先端技術研究': 'Advanced Technology Research',
     '金融': 'Finance',
     '教育': 'Education',
     'データセンター': 'Data Centers',
