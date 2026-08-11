@@ -300,6 +300,7 @@ if (isEnglish) {
     'ソフトバンク×OpenAIが挑む「AIの社会実装」── 日本最大級の変革、その最前線へ': 'SoftBank × OpenAI: Real-World AI Implementation — At the Forefront of Japan’s Largest Transformation',
     'ソフトバンク×OpenAIが挑む「AIの社会実装」──構想で終わらせない、AIネイティブ変革の最前線': 'SoftBank × OpenAI: Real-World AI Implementation — From Vision to AI-Native Transformation',
     'DX&AI Forum 2026 Fall 東京': 'DX&AI Forum 2026 Fall Tokyo',
+    'Speaking · DX&AI Forum 2026 Fall 東京 · 2026': 'Speaking · DX&AI Forum 2026 Fall Tokyo · 2026',
     'SBクリエイティブ（ビジネス＋IT）': 'SB Creative (Business + IT)',
     '日時': 'Date & Time',
     '2026年9月18日 17:00–17:40': 'September 18, 2026 · 17:00–17:40',
