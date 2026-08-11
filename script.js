@@ -153,7 +153,7 @@ if (isEnglish) {
     '2012–継続中': '2012–Present',
     '国内外のアジャイルコミュニティへの貢献': 'Contributions to Agile Communities in Japan and Abroad',
     'Scrum、XP、Lean、DevOpsの実践と、国内外での知見共有・コミュニティ活動を継続しています。': 'I continue to practice Scrum, XP, Lean, and DevOps while sharing insights and contributing to communities in Japan and abroad.',
-    '講演・技術・アジャイルに関するご相談はこちら': 'Contact me about speaking, technology, and agile',
+    '講演・技術支援等のお問い合わせ': 'Speaking & Technical Advisory Inquiries',
     'Certified Scrum Alliance Trainer™（CSAT™）': 'Certified Scrum Alliance Trainer™ (CSAT™)',
     'Certified Team Coach™（CTC™）': 'Certified Team Coach™ (CTC™)',
     'Accredited Team Coach（ATC）': 'Accredited Team Coach (ATC)',
@@ -311,6 +311,7 @@ if (isEnglish) {
     'スライド': 'Slides',
     '写真・詳細': 'Photos & Details',
     '公式ページ ↗': 'Official page ↗',
+    'プレスリリース ↗': 'Press release ↗',
     'AI・ソフトウェアエンジニアリング': 'AI & Software Engineering',
     '日本能率協会': 'Japan Management Association',
     '生成AIを学ぶ：高専教育における基礎・未来・倫理・実践活用術': 'Learning Generative AI: Foundations, Future, Ethics, and Practice in KOSEN Education',
@@ -402,7 +403,7 @@ if (isEnglish) {
     'SoftBank Group ASI記事のサムネイル': 'SoftBank Group ASI article thumbnail',
     '日刊工業新聞のAI活用記事サムネイル': 'Nikkan Kogyo Shimbun AI adoption article thumbnail',
     'HiPro DX講演記事のサムネイル': 'HiPro DX seminar article thumbnail',
-    'CAREER HACKインタビューのサムネイル': 'CAREER HACK interview thumbnail',
+    'CAREER HACKインタビュー記事のファーストビュー': 'CAREER HACK interview article hero image',
     '東京IPOセミナーのサムネイル': 'Tokyo IPO seminar thumbnail',
     'Regional SCRUM GATHERING Tokyo 2017講演資料のサムネイル': 'Regional SCRUM GATHERING Tokyo 2017 presentation thumbnail'
   };

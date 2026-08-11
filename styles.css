@@ -1498,6 +1498,7 @@ footer { font-size: .82rem; }
 .talk-item dt { color: var(--muted); font-size: .7rem; }
 .talk-item dd { min-width: 0; margin: 0; font-size: .78rem; line-height: 1.5; overflow-wrap: anywhere; }
 .talk-item dd a { border-bottom: 1px solid var(--ink); }
+.talk-detail-links { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
 .talks-more summary { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--line); cursor: pointer; list-style: none; font-size: .84rem; font-weight: 600; }
 .talks-more summary::-webkit-details-marker { display: none; }
 .talks-more summary span {
