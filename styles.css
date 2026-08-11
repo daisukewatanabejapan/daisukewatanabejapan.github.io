@@ -955,6 +955,7 @@ footer { font-size: .82rem; }
   border-bottom: 1px solid var(--line);
 }
 .expertise-metrics-pair { grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 12px; }
+.expertise-metrics-vertical { grid-template-columns: 1fr; gap: 24px; }
 .expertise-metric { min-width: 0; }
 .expertise-metric strong {
   display: block;
