@@ -65,6 +65,7 @@ nav a:hover, footer a:hover { opacity: .5; }
 .portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 22%; background: white; }
 .portrait figcaption { display: flex; justify-content: space-between; gap: 16px; padding-top: 12px; color: var(--muted); font-size: .7rem; }
 .hero-meta { display: flex; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 20px; font-size: .82rem; }
+.hero-tagline { margin: 0; color: #3f3f3f; font-size: .82rem; font-weight: 500; letter-spacing: .01em; white-space: nowrap; }
 .social-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 28px; }
 
 @media (min-width: 901px) {
