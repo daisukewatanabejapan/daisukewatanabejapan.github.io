@@ -1137,6 +1137,10 @@ html[data-language="en"] .expertise-grid .expertise-domain-list > li > span {
 .about-ja {
   margin-top: 0;
 }
+html[lang="ja"] .about-career-no-break { white-space: nowrap; }
+@media (max-width: 600px) {
+  html[lang="ja"] .about-career-no-break { white-space: normal; }
+}
 .about-kicker {
   margin: 0 0 18px !important;
   color: var(--ink) !important;
