@@ -232,7 +232,7 @@ if (isEnglish) {
     '人事について（VP就任）': 'Executive Appointment',
     '生成AI統括本部': 'Generative AI Division',
     '戦略企画本部／AI開発本部': 'Strategy Planning / AI Development',
-    '全社生成AI戦略と社内情報検索AIのプロダクトマネジメントを担当。10か月でMAUが4倍となり、10,000名超・組織の90％超が利用する基盤へ拡大しました。': 'Led enterprise-wide generative AI strategy and product management for an internal AI search platform. MAU quadrupled within 10 months, scaling to more than 10,000 users and over 90% organizational adoption.',
+    '全社生成AI戦略と社内情報検索AIのプロダクトマネジメントを担当。10か月でMAUが4倍となり、月間利用従業員数1万人超、組織内利用率90％超まで拡大しました。': 'Led enterprise-wide generative AI strategy and product management for an internal AI search platform. MAU quadrupled within 10 months, exceeding 10,000 monthly active employees and achieving over 90% organizational adoption.',
     'LINEヤフー AI活用': 'Enterprise AI at LY Corporation',
     'LINEヤフー株式会社': 'LY Corporation',
     'ヤフー株式会社': 'Yahoo Japan Corporation',
