@@ -257,7 +257,7 @@ if (isEnglish) {
     'スマートフォン市場とコンテンツビジネス': 'Smartphone Market & Content Business',
     '日本テレビホールディングス株式会社／株式会社日本テレビビデオ': 'Nippon Television Holdings, Inc. / Nippon Television Video Corporation',
     'プロジェクトマネジャー': 'Project Manager',
-    '日本テレビの番組Webサイト、箱根駅伝・選挙速報システム、読売新聞の主要ニュースメディアを開発しました。': 'Developed Nippon TV program websites, real-time Hakone Ekiden and national election systems, and major Yomiuri Shimbun news services.',
+    '日本テレビの番組Webサイト、箱根駅伝・衆議院・参議院選挙速報システム、データ放送の開発に加え、NEWS読売・報知、読売巨人軍、発言小町など、読売新聞グループの主要Webメディアの立ち上げ・開発に携わりました。': 'Developed web platforms for Nippon Television programs, real-time systems for the Hakone Ekiden and Japan’s House of Representatives and House of Councillors elections, and data broadcasting services, while also contributing to the launch and development of major Yomiuri Shimbun Group web media, including NEWS Yomiuri-Hochi, Yomiuri Giants, and Hatsugen Komachi.',
     'プログラマー': 'Programmer',
     '省庁の公共システム開発を中心に、NEC・東芝関連プロジェクト、NTTの交換機開発、KDDのデータ移行、J-COM@Homeのサーバー移行などに携わりました。': 'Worked primarily on public-sector systems, including NEC and Toshiba projects, NTT switching systems, KDD data migration, and J-COM@Home server migration.',
     '公共システム開発': 'Public-sector Systems Development',
