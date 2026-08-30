@@ -143,8 +143,8 @@ nav a:hover, footer a:hover { opacity: .5; }
 .career-current .year::after { content: "Current"; display: block; width: max-content; margin-top: 8px; padding: 2px 7px; border: 1px solid var(--ink); color: var(--ink); font-size: .62rem; letter-spacing: .04em; text-transform: uppercase; }
 
 .large-copy { max-width: 900px; margin: 0 0 96px; font-size: clamp(1.8rem, 3.8vw, 4rem); line-height: 1.32; letter-spacing: -.045em; }
-.expertise-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
-.expertise-grid article { min-height: 330px; padding: 24px 24px 32px 0; display: flex; flex-direction: column; }
+.expertise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); }
+.expertise-grid article { min-width: 0; min-height: 330px; padding: 24px 24px 32px 0; display: flex; flex-direction: column; }
 .expertise-grid article + article { padding-left: 24px; border-left: 1px solid var(--line); }
 .expertise-grid span { color: var(--muted); font-size: .7rem; }
 .expertise-grid h3 { margin: auto 0 24px; font-size: 1.25rem; font-weight: 500; }
@@ -1000,12 +1000,6 @@ footer { font-size: .82rem; }
   white-space: nowrap;
 }
 @media (min-width: 901px) and (max-width: 1180px) {
-  html[lang="ja"] .expertise-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  html[lang="ja"] .expertise-grid > article {
-    min-width: 0;
-  }
   html[lang="ja"] .expertise-grid .expertise-domain-list > li {
     min-width: 0;
     max-width: 100%;
