@@ -999,6 +999,19 @@ footer { font-size: .82rem; }
   letter-spacing: 0;
   white-space: nowrap;
 }
+@media (min-width: 901px) and (max-width: 1180px) {
+  html[lang="ja"] .expertise-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  html[lang="ja"] .expertise-grid > article {
+    min-width: 0;
+  }
+  html[lang="ja"] .expertise-grid .expertise-domain-list > li {
+    min-width: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
 .expertise-grid li { padding: 6px 10px; border: 1px solid var(--line); background: var(--paper); color: #555; font-size: .78rem; line-height: 1.45; }
 
 /* Keep the translated expertise cards aligned despite longer English labels. */
