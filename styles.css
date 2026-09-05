@@ -2551,3 +2551,128 @@ html[lang="ja"] :where(p, li, dd) { text-wrap: pretty; }
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Readability: body copy on desktop and tablet */
+@media (min-width: 601px) {
+  .mission-grid p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  .about-intro p {
+    font-size: 1.1rem;
+    line-height: 1.85;
+  }
+  .career-note {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+  .talk-main p {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+  .project-list p,
+  .project-list strong,
+  .statement .statement-reflection p,
+  .expertise-activities > p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  .expertise-activities li {
+    font-size: .96rem;
+  }
+
+  .hero-role-list dd {
+    font-size: .94rem;
+    line-height: 1.55;
+  }
+  .hero-credentials li {
+    font-size: .875rem;
+    line-height: 1.55;
+  }
+  .hero-credentials li:first-child strong {
+    font-size: .9rem;
+  }
+  .hero-credentials li:first-child span {
+    font-size: .8rem;
+  }
+  .hero-closing p,
+  .hero-closing a {
+    font-size: .875rem;
+  }
+  .mission-grid h3 {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+  .feature-card h3 {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .feature-card .card-link {
+    font-size: .875rem;
+  }
+  .about-related strong,
+  .agile-activity-links .activity-link-copy strong,
+  .project-list .activity-link-copy,
+  .timeline-links span {
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+  .talk-main h3 {
+    font-size: clamp(1.15rem, 1.4vw, 1.3rem);
+    line-height: 1.45;
+  }
+  .talk-item dd {
+    font-size: .875rem;
+    line-height: 1.55;
+  }
+  .expertise-grid li,
+  .expertise-grid .expertise-domain-list > li > span {
+    font-size: .84rem;
+    line-height: 1.5;
+  }
+  .statement blockquote,
+  .closing h2 {
+    font-size: clamp(2.5rem, 3.6vw, 3.4rem);
+    line-height: 1.22;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-credentials li,
+  .feature-card .card-link,
+  .timeline-links span,
+  .talk-item dd,
+  .expertise-grid li,
+  .expertise-grid .expertise-domain-list > li > span {
+    font-size: .82rem;
+  }
+}
+
+/* Final type-scale alignment */
+#featured .feature-card h3 {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .mission-grid p,
+  .career-note,
+  .talk-main p,
+  .statement .statement-reflection p,
+  .expertise-activities > p,
+  .project-list p,
+  .project-list strong {
+    font-size: .94rem !important;
+    line-height: 1.7 !important;
+  }
+  .hero-role-list dd {
+    font-size: .875rem;
+  }
+  .mission-grid h3 {
+    font-size: .96rem;
+  }
+  .talk-main h3 {
+    font-size: 1.15rem;
+    line-height: 1.45;
+  }
+}
