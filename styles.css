@@ -1249,6 +1249,7 @@ html[data-language="en"] .expertise-grid .expertise-domain-list > li > span {
   color: var(--muted);
   line-height: 1.9;
 }
+.enterprise-activity .activity-domain-body > p { margin-bottom: 24px; }
 .education-activity .ongoing-activities { margin: 0; }
 .education-activity .project-list { margin: 0; }
 .agile-activity-links {
